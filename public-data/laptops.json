@@ -100,7 +100,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -208,7 +210,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -306,7 +310,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-hx-370",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -405,7 +411,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -511,7 +519,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -611,7 +621,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-hx-370",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -812,7 +824,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -910,7 +924,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -1009,7 +1025,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -1110,7 +1128,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-85-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-85-w",
+    "family_id": "gigabyte-aero-x16",
+    "family_label": "GIGABYTE AERO X16"
   },
   {
     "gpu_vram_gb": 8,
@@ -1212,7 +1232,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-85-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-85-w",
+    "family_id": "gigabyte-aero-x16",
+    "family_label": "GIGABYTE AERO X16"
   },
   {
     "gpu_vram_gb": null,
@@ -1313,7 +1335,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-hx-370",
-    "gpu_profile_id": null
+    "gpu_profile_id": null,
+    "family_id": "gigabyte-aero-x16",
+    "family_label": "GIGABYTE AERO X16"
   },
   {
     "gpu_vram_gb": 8,
@@ -1421,7 +1445,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-7-260",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "asus-tuf-gaming-a16-2025",
+    "family_label": "ASUS TUF Gaming A16 (2025)"
   },
   {
     "gpu_vram_gb": 8,
@@ -1529,7 +1555,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-7-260",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "asus-tuf-gaming-a16-2025",
+    "family_label": "ASUS TUF Gaming A16 (2025)"
   },
   {
     "gpu_vram_gb": 8,
@@ -1636,7 +1664,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-7-260",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "asus-tuf-gaming-a16-2025",
+    "family_label": "ASUS TUF Gaming A16 (2025)"
   },
   {
     "gpu_vram_gb": 8,
@@ -1737,7 +1767,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-9-8940hx",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w",
+    "family_id": "lenovo-legion-pro-5-16adr10",
+    "family_label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10"
   },
   {
     "gpu_vram_gb": 8,
@@ -1837,7 +1869,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-9-8940hx",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w",
+    "family_id": "lenovo-legion-pro-5-16adr10",
+    "family_label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10"
   },
   {
     "gpu_vram_gb": 8,
@@ -1938,7 +1972,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-7-8745hx",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "lenovo-legion-pro-5-16adr10",
+    "family_label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10"
   },
   {
     "gpu_vram_gb": 8,
@@ -2155,7 +2191,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-core-7-240h",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w",
+    "family_id": "asus-v16-v3607",
+    "family_label": "ASUS V16 V3607"
   },
   {
     "gpu_vram_gb": 8,
@@ -2259,7 +2297,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-core-7-240h",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w",
+    "family_id": "asus-v16-v3607",
+    "family_label": "ASUS V16 V3607"
   },
   {
     "gpu_vram_gb": 8,
@@ -2567,7 +2607,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "acer-nitro-16s-ai",
+    "family_label": "Acer Nitro 16S AI"
   },
   {
     "gpu_vram_gb": 8,
@@ -2668,7 +2710,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-9-365",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "acer-nitro-16s-ai",
+    "family_label": "Acer Nitro 16S AI"
   },
   {
     "gpu_vram_gb": 12,
@@ -2769,7 +2813,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": null,
-    "gpu_profile_id": "gpu-rtx-5070-ti-12-gb-110-w"
+    "gpu_profile_id": "gpu-rtx-5070-ti-12-gb-110-w",
+    "family_id": "acer-nitro-16s-ai",
+    "family_label": "Acer Nitro 16S AI"
   },
   {
     "gpu_vram_gb": 12,
@@ -3088,7 +3134,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-9-8940hx",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-unknown-w",
+    "family_id": "hp-omen-16-amd-2025",
+    "family_label": "HP OMEN 16 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -3191,7 +3239,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-9-8940hx",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w",
+    "family_id": "hp-omen-16-amd-2025",
+    "family_label": "HP OMEN 16 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -3507,28 +3557,28 @@
   },
   {
     "gpu_vram_gb": 8,
-    "gpu_tgp_w": null,
+    "gpu_tgp_w": 105,
     "ram_gb": 16,
-    "ram_type": null,
+    "ram_type": "LPDDR5X-7500 soldered",
     "ram_upgradeable": false,
     "ssd_gb": 1000,
-    "second_m2": null,
+    "second_m2": true,
     "display_size_in": 16,
-    "resolution": null,
+    "resolution": "2560x1600",
     "aspect_ratio": "16:10",
-    "refresh_rate_hz": null,
-    "panel_type": null,
-    "brightness_nits": null,
-    "weight_kg": null,
-    "battery_wh": null,
+    "refresh_rate_hz": 240,
+    "panel_type": "OLED glossy",
+    "brightness_nits": 550,
+    "weight_kg": 1.85,
+    "battery_wh": 90,
     "numpad": false,
-    "keyboard_layout": null,
-    "windows_hello": null,
-    "usb_c_pd": null,
-    "thunderbolt": null,
-    "wifi": null,
-    "os": null,
-    "confidence": "medium",
+    "keyboard_layout": "German QWERTZ",
+    "windows_hello": true,
+    "usb_c_pd": true,
+    "thunderbolt": false,
+    "wifi": "Wi-Fi 7",
+    "os": "Windows 11 Home",
+    "confidence": "verified",
     "historical_references": [],
     "market_snapshot": null,
     "target_prices": {
@@ -3537,7 +3587,7 @@
       "consider": 1850.0
     },
     "score_as_of": "2026-08-15",
-    "notes": "Current ASUS sale 1899 euros",
+    "notes": "Exact official ASUS configuration reverified. The 16 GB memory is soldered and cannot be upgraded, so it remains archived despite its excellent portability and display.",
     "id": "asus-zephyrus-g16-ga605km-qr003w",
     "brand": "ASUS",
     "model": "ROG Zephyrus G16",
@@ -3558,14 +3608,14 @@
       "https://gzhls.at/blob/ldb/f/5/5/d/669d5cf0ac1d865509769ce9b431b5e564c2.pdf"
     ],
     "verification": {
-      "as_of": "2026-08-01",
-      "confidence": "high",
+      "as_of": "2026-08-15",
+      "confidence": "verified",
       "score_confidence": "High",
       "sources": [
         "https://estore.asus.com/de/90nr0ne1-m00030-rog-zephyrus-g16-2025-ga605.html",
         "https://gzhls.at/blob/ldb/f/5/5/d/669d5cf0ac1d865509769ce9b431b5e564c2.pdf"
       ],
-      "notes": "Current ASUS sale 1899 euros"
+      "notes": "Exact ASUS SKU, 105 W GPU, soldered memory, two M.2 positions, OLED display, German keyboard, IR camera, battery, USB-C PD and weight verified."
     },
     "criteria_scores": {
       "gpu": 74,
@@ -3597,15 +3647,17 @@
     "configuration_fingerprint": {
       "cpu": "Ryzen AI 7 350",
       "gpu": "RTX 5060",
-      "gpu_tgp_w": null,
+      "gpu_tgp_w": 105,
       "ram_gb": 16,
       "ssd_gb": 1000,
-      "keyboard_layout": null,
+      "keyboard_layout": "German QWERTZ",
       "os_status": "windows_included",
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-unknown-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-105-w",
+    "family_id": "asus-rog-zephyrus-g16-ga605-2025",
+    "family_label": "ASUS ROG Zephyrus G16 GA605 (2025)"
   },
   {
     "id": "tulpar-t6-v3-5-1",
@@ -4490,7 +4542,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-amd-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-100-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-100-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "id": "tuxedo-infinitybook-max16-g10-hx370-rtx5060",
@@ -4588,7 +4642,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-amd-ryzen-ai-9-hx-370",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-100-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-100-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "id": "tuxedo-infinitybook-max16-g10-hx370-rtx5070",
@@ -4687,7 +4743,9 @@
       "configuration_type": "configurable_target"
     },
     "cpu_component_id": "cpu-amd-ryzen-ai-9-hx-370",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-100-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-100-w",
+    "family_id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "family_label": "TUXEDO InfinityBook Max 16 Gen10 AMD"
   },
   {
     "gpu_vram_gb": 8,
@@ -4793,7 +4851,9 @@
       "configuration_type": "fixed_prebuild"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -4895,7 +4955,9 @@
       "configuration_type": "fixed_prebuild"
     },
     "cpu_component_id": "cpu-ryzen-ai-7-350",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "xmg-core-16-m25",
+    "family_label": "XMG CORE 16 M25"
   },
   {
     "gpu_vram_gb": 8,
@@ -5002,7 +5064,9 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-7-8745hx",
-    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w",
+    "family_id": "lenovo-legion-pro-5-16adr10",
+    "family_label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10"
   },
   {
     "gpu_vram_gb": 8,
@@ -5116,7 +5180,122 @@
       "configuration_type": "fixed_sku"
     },
     "cpu_component_id": "cpu-ryzen-9-8945hx",
-    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w",
+    "family_id": "lenovo-legion-pro-5-16adr10",
+    "family_label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10"
+  },
+  {
+    "id": "asus-zephyrus-g16-ga605kp-qr022w",
+    "brand": "ASUS",
+    "model": "ROG Zephyrus G16",
+    "sku": "GA605KP-QR022W",
+    "sku_aliases": [
+      "GA605KP-QR022W",
+      "90NR0NC1-M00120"
+    ],
+    "variant": "Ryzen AI 7 350 / RTX 5070 105 W / 32 GB soldered / 1 TB",
+    "status": "watchlist",
+    "configuration_type": "fixed_sku",
+    "cpu": "Ryzen AI 7 350",
+    "cpu_family": "AMD Ryzen AI 300",
+    "gpu": "RTX 5070",
+    "gpu_vram_gb": 8,
+    "gpu_tgp_w": 105,
+    "ram_gb": 32,
+    "ram_type": "LPDDR5X-7500 soldered",
+    "ram_upgradeable": false,
+    "ssd_gb": 1000,
+    "second_m2": true,
+    "display_size_in": 16,
+    "resolution": "2560x1600",
+    "aspect_ratio": "16:10",
+    "refresh_rate_hz": 240,
+    "panel_type": "OLED glossy",
+    "brightness_nits": 550,
+    "weight_kg": 1.85,
+    "battery_wh": 90,
+    "numpad": false,
+    "keyboard_layout": "German QWERTZ",
+    "windows_hello": true,
+    "usb_c_pd": true,
+    "thunderbolt": false,
+    "wifi": "Wi-Fi 7",
+    "os": "Windows 11 Home",
+    "os_status": "windows_included",
+    "confidence": "verified",
+    "source_urls": [
+      "https://estore.asus.com/de/90nr0nc1-m00120-rog-zephyrus-g16-2025-ga605.html",
+      "https://rog.asus.com/de/laptops/rog-zephyrus/rog-zephyrus-g16-2025-ga605/spec/",
+      "https://gzhls.at/blob/ldb/4/f/5/4/354a4ccfb1f6458324a4b2bf6a3e1ee0b458.pdf"
+    ],
+    "verification": {
+      "as_of": "2026-08-15",
+      "confidence": "verified",
+      "score_confidence": "High",
+      "sources": [
+        "https://estore.asus.com/de/90nr0nc1-m00120-rog-zephyrus-g16-2025-ga605.html",
+        "https://rog.asus.com/de/laptops/rog-zephyrus/rog-zephyrus-g16-2025-ga605/spec/",
+        "https://gzhls.at/blob/ldb/4/f/5/4/354a4ccfb1f6458324a4b2bf6a3e1ee0b458.pdf"
+      ],
+      "notes": "Exact official ASUS SKU verifies the 105 W RTX 5070, 32 GB soldered memory, two M.2 positions, OLED display, German keyboard, IR Windows Hello, 90 Wh battery, USB-C PD and 1.85 kg weight."
+    },
+    "historical_references": [],
+    "market_snapshot": {
+      "date": "2026-08-15",
+      "price_eur": 2399,
+      "availability": "in_stock",
+      "label": "Official ASUS eStore price"
+    },
+    "target_prices": {
+      "buy_now": 1700.0,
+      "strong": 1850.0,
+      "consider": 2050.0
+    },
+    "criteria_scores": {
+      "gpu": 80,
+      "cpu": 84,
+      "memory_storage": 55,
+      "cooling_build": 90,
+      "keyboard": 40,
+      "display": 98,
+      "battery_usb_c": 95,
+      "portability": 100,
+      "windows_hello": 100,
+      "ports_misc": 95
+    },
+    "laptop_score": 79,
+    "score_as_of": "2026-08-15",
+    "score_confidence": "High",
+    "regret_flags": [
+      "32 GB RAM is soldered with no 64 GB upgrade path",
+      "No numpad",
+      "German QWERTZ",
+      "Glossy OLED reflections and burn-in consideration",
+      "8 GB VRAM",
+      "Premium price for a 105 W RTX 5070"
+    ],
+    "research_value_snapshot": {
+      "value_score": 60,
+      "rating": "Poor current value",
+      "decision": "SKIP at EUR 2399; retain for comparison and wait for a major discount",
+      "price_eur": 2399.0,
+      "date": "2026-08-15"
+    },
+    "notes": "The missing 32 GB / RTX 5070 Zephyrus configuration. It solves the 16 GB capacity problem but remains soldered, has no numpad, uses German QWERTZ, and is expensive for an 8 GB 105 W GPU.",
+    "configuration_fingerprint": {
+      "cpu": "Ryzen AI 7 350",
+      "gpu": "RTX 5070",
+      "gpu_tgp_w": 105,
+      "ram_gb": 32,
+      "ssd_gb": 1000,
+      "keyboard_layout": "German QWERTZ",
+      "os_status": "windows_included",
+      "configuration_type": "fixed_sku"
+    },
+    "cpu_component_id": "cpu-ryzen-ai-7-350",
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-105-w",
+    "family_id": "asus-rog-zephyrus-g16-ga605-2025",
+    "family_label": "ASUS ROG Zephyrus G16 GA605 (2025)"
   },
   {
     "id": "xmg-core-15-m25-m25",
@@ -5155,7 +5334,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-fusion-16-m25-m25",
@@ -5194,7 +5373,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-focus-17-m25-m25",
@@ -5233,7 +5412,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-pro-16-ve-m25-m25",
@@ -5272,7 +5451,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-core-16-m25-m25",
@@ -5311,7 +5490,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-fusion-15-l25-l25",
@@ -5350,7 +5529,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-apex-17-m25-m25",
@@ -5389,7 +5568,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
@@ -5428,7 +5607,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-pro-16-m25-m25",
@@ -5467,7 +5646,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-neo-16-a25-gamestar-elite-s-a25",
@@ -5506,7 +5685,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   },
   {
     "id": "xmg-neo-16-e25-gamestar-titan-s-e25",
@@ -5545,6 +5724,6 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:51:57Z"
+    "last_seen": "2026-08-15T15:24:18Z"
   }
 ]
