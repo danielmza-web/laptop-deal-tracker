@@ -1,0 +1,63 @@
+{
+  "budget": {
+    "new_target": 1800,
+    "new_max": 2000,
+    "used_target": 1100
+  },
+  "display": {
+    "preferred_size": 16,
+    "preferred_aspect_ratio": "16:10",
+    "preferred_resolution": "2560x1600",
+    "minimum_refresh_rate": 165
+  },
+  "memory": {
+    "minimum_ram_gb": 32,
+    "minimum_storage_gb": 1000,
+    "upgradeable_preferred": true,
+    "second_m2_preferred": true
+  },
+  "gpu": {
+    "acceptable": ["RTX 5060", "RTX 5070", "RTX 5070 Ti"],
+    "premium": ["RTX 5080"]
+  },
+  "cpu_preferred": ["Ryzen AI 7 350", "Ryzen AI 9 365"],
+  "keyboard": {
+    "qwerty_preferred": true,
+    "numpad_preferred": true
+  },
+  "weight": {
+    "ideal_max_kg": 2.5,
+    "importance": "medium"
+  },
+  "windows_hello": {
+    "preferred": true,
+    "importance": "low"
+  },
+  "reference_laptop_id": "xmg-core-16-m25-ai9-365-rtx5060",
+  "score_weights": {
+    "gpu": 22,
+    "cpu": 16,
+    "memory_storage": 12,
+    "cooling_build": 12,
+    "keyboard": 12,
+    "display": 10,
+    "battery_usb_c": 7,
+    "portability": 5,
+    "windows_hello": 3,
+    "ports_misc": 1
+  },
+  "cost_allowances": {
+    "windows": 50,
+    "ram_32gb": 90,
+    "ssd_1tb": 70,
+    "official_windows_reference": 145
+  },
+  "deal_thresholds": {
+    "buy": 82,
+    "wait": 68,
+    "buy_now": 91,
+    "very_good": 82,
+    "good": 72,
+    "normal": 58
+  }
+}

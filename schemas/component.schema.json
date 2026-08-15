@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://laptops.dazu.xyz/schemas/component.schema.json",
+  "title": "Reusable CPU or GPU comparison entry",
+  "type": "object",
+  "required": ["id", "type", "name", "comparison_score", "confidence", "as_of", "sources"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "type": {"enum": ["cpu", "gpu"]},
+    "name": {"type": "string", "minLength": 1},
+    "comparison_score": {"type": "integer", "minimum": 0, "maximum": 100},
+    "confidence": {"enum": ["low", "medium", "high", "verified"]},
+    "as_of": {"type": "string", "format": "date"},
+    "sources": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "gpu": {"type": "string"},
+    "vram_gb": {"type": ["number", "null"]},
+    "tgp_w": {"type": ["number", "null"]}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://laptops.dazu.xyz/schemas/dashboard.schema.json",
+  "title": "Laptop Deal Tracker dashboard",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "summary", "preferences", "laptops", "source_health"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "generated_at": {"type": "string"},
+    "purchase_completed": {"type": ["object", "null"]},
+    "summary": {"type": "object"},
+    "preferences": {"type": "object"},
+    "laptops": {"type": "array"},
+    "components": {"type": "array"},
+    "ideal_requirements": {"type": "object"},
+    "market_leads": {"type": "object"},
+    "source_health": {"type": "array"},
+    "recent_events": {"type": "array"}
+  }
+}

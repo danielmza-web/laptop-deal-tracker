@@ -1,0 +1,486 @@
+[
+  {
+    "id": "cpu-amd-ryzen-ai-7-350",
+    "type": "cpu",
+    "name": "AMD Ryzen AI 7 350",
+    "comparison_score": 84,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-amd-ryzen-ai-9-hx-370",
+    "type": "cpu",
+    "name": "AMD Ryzen AI 9 HX 370",
+    "comparison_score": 94,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-core-7-240h",
+    "type": "cpu",
+    "name": "Core 7 240H",
+    "comparison_score": 74,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.at/asus-v16-v3607vp-rp028w-90nb16r1-m002z0-a3867779.html",
+      "https://www.asus.com/de/laptops/for-gaming/all-series/asus-v16-v3607/where-to-buy/",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/207725195_-v16-v3607vm-rp036w-asus.html"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-core-ultra-7-255hx",
+    "type": "cpu",
+    "name": "Core Ultra 7 255HX",
+    "comparison_score": 90,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://de-store.msi.com/products/msi-laptop-vector-16-hx-ai-a2xwhg",
+      "https://geizhals.de/msi-vector-16-hx-ai-a2xwhg-074-0015m3-074-a3427350.html",
+      "https://psref.lenovo.com/",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/209564240_-legion-5-pro-16-83f3003hpb-lenovo.html",
+      "https://www.pcspecialist.de/notebooks/ionico-ii-16/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-core-ultra-7-265h",
+    "type": "cpu",
+    "name": "Core Ultra 7 265H",
+    "comparison_score": 85,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.dell.com/de-de/shop/cty/pdp/spd/dell-pro-max-mc16250-laptop/bts123_mc16250_deat",
+      "https://www.dell.com/support/manuals/de-de/dell-pro-max-mc16250-laptop"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-core-i7-13620h",
+    "type": "cpu",
+    "name": "Core i7-13620H",
+    "comparison_score": 66,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://media.medion.com/prod/medion/de_DE/0762/0719/0644/30039763.pdf",
+      "https://www.medion.com/de/shop/p/core-gaming-notebooks-medion-erazer-defender-17-p1-core-gaming-laptop-intel-core-i7-13620h-ohne-os-43-9-cm-17-3--fhd-display-mit-144-hz-nvidia-geforce-rtx-5060-1-tb-ssd-16-gb-ram-30039763A1"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-intel-core-ultra-7-265h",
+    "type": "cpu",
+    "name": "Intel Core Ultra 7 265H",
+    "comparison_score": 85,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/dell-pro-16-max-mc16250-4jwk2-a3585438.html",
+      "https://www.dell.com/de-de/shop/cty/pdp/spd/dell-pro-max-mc16250-laptop/bts123_mc16250_deat"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-intel-core-i7-14650hx",
+    "type": "cpu",
+    "name": "Intel Core i7-14650HX",
+    "comparison_score": 80,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.chipstore.de/media/a6/60/33/1773243718/Highend%20Gaming%20I95-052GE.pdf",
+      "https://www.chipstore.de/p/captiva-gaming-laptop-i95-052ge/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-intel-core-i7-14700hx",
+    "type": "cpu",
+    "name": "Intel Core i7-14700HX",
+    "comparison_score": 84,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/tulpar-t6-v3-5-1-a3763726.html",
+      "https://www.tulparnotebook.de/t-serie/tulpar-t6-v3-5"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-7-260",
+    "type": "cpu",
+    "name": "Ryzen 7 260",
+    "comparison_score": 72,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://estore.asus.com/de/90nr0kt1-m001x0-asus-tuf-gaming-a16-2025.html",
+      "https://estore.asus.com/de/90nr0kt1-m007k0-asus-tuf-gaming-a16-2025.html",
+      "https://geizhals.de/asus-tuf-gaming-a16-2025-fa608um-rv136w-90nr0kv1-m008z0-a3670472.html",
+      "https://geizhals.de/asus-tuf-gaming-a16-2025-fa608up-rv019w-90nr0kt1-m001x0-a3664282.html",
+      "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf",
+      "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+      "https://www.galaxus.de/de/s1/product/asus-tuf-gaming-a16-rtx-5060-16-1000-gb-16-gb-de-amd-ryzen-7-260-notebook-62213459"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-7-8745hx",
+    "type": "cpu",
+    "name": "Ryzen 7 8745HX",
+    "comparison_score": 75,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/lenovo-legion-pro-5-16adr10-83lt0009ge-a3588714.html",
+      "https://www.computeruniverse.net/en/p/1C47-02V"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-7-h-255",
+    "type": "cpu",
+    "name": "Ryzen 7 H 255",
+    "comparison_score": 73,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.xmg.gg/en/news-new-product-xmg-core-16-value-edition-m25/",
+      "https://www.xmg.gg/en/xmg-core-16-value-edition-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-9-8940hx",
+    "type": "cpu",
+    "name": "Ryzen 9 8940HX",
+    "comparison_score": 81,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://preisvergleich.heise.de/hp-omen-gaming-laptop-16-ap0191ng-c2ak1ea-abd-a3572710.html",
+      "https://www.alternate.de/OMEN/16-ap0192ng-Gaming-Notebook/html/product/100148860",
+      "https://www.campuspoint.de/media/custom/upload/File-1762852249.pdf",
+      "https://www.hp.com/at-de/products/laptops/product-details/2103234866",
+      "https://www.hp.com/at-de/products/laptops/product-details/product-specifications/2103234909",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/208008719_-legion-5-pro-16-83lt004mge-lenovo.html",
+      "https://www.lenovo.com/de/de/p/83LT004NGE",
+      "https://www.lenovo.com/de/de/p/laptops/legion-laptops/legion-5-series/legion-pro-5-gen-10-16-inch-amd/83lt004mge/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-9-9955hx",
+    "type": "cpu",
+    "name": "Ryzen 9 9955HX",
+    "comparison_score": 94,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://cdn-media.playox.de/product-management/products/assets/n2008278334/datasheets/G614FR_S5214W.pdf",
+      "https://estore.asus.com/de/90nr0nk8-m00b60-rog-strix-g16-2025-g614.html"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-ai-7-350",
+    "type": "cpu",
+    "name": "Ryzen AI 7 350",
+    "comparison_score": 84,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl.html",
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxxl.html",
+      "https://bestware.com/de/xmg-core-16-m25.html",
+      "https://estore.asus.com/de/90nr0ne1-m00030-rog-zephyrus-g16-2025-ga605.html",
+      "https://geizhals.de/gigabyte-aero-x16-1vh93dec64ah-a3504780.html",
+      "https://geizhals.de/gigabyte-aero-x16-1wh93dec64ah-a3502136.html",
+      "https://gzhls.at/blob/ldb/1/3/7/e/e6cd57ef48c383997c91a18f7081962939e4.pdf",
+      "https://gzhls.at/blob/ldb/f/5/5/d/669d5cf0ac1d865509769ce9b431b5e564c2.pdf",
+      "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-61-schwarz-nh-qxpeg-001",
+      "https://www.cyberport.de/en/notebook-und-tablet/notebooks/gigabyte/pdp/1c37-07p/gigabyte-aero-x16-1wh-gaming-laptop-16-qhd-165-hz-ryzen-ai-7-350-32gb-1tb-ssd-rtx5070-win11.html",
+      "https://www.notebooksbilliger.de/gigabyte+aero+x16+1vh93dec64ah",
+      "https://www.tuxedocomputers.com/de/InfinityBook-Max-16-Gen10-AMD-Schlanke-Linux-Workstation-mit-Ryzen-AI-und-RTX-Grafik.tuxedo",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo",
+      "https://www.xmg.gg/en/xmg-core-16-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-ai-9-365",
+    "type": "cpu",
+    "name": "Ryzen AI 9 365",
+    "comparison_score": 90,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl.html",
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxxl.html",
+      "https://gzhls.at/blob/ldb/8/0/b/2/3c8a1c3fa777c54b8bfcc1168f144b6aabbf.pdf",
+      "https://gzhls.at/blob/ldb/e/5/f/2/fe97c94c8ceb35f896d319640ae9ecc10fb8.pdf",
+      "https://www.acer.com/de-de/laptops/nitro/nitro-16s-ai-amd",
+      "https://www.acer.com/de-de/laptops/nitro/nitro-16s-ai-amd/pdp/NH.QXTEG.002",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo",
+      "https://www.xmg.gg/en/xmg-core-16-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-ai-9-hx-370",
+    "type": "cpu",
+    "name": "Ryzen AI 9 HX 370",
+    "comparison_score": 94,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl-upgrade-edition.html",
+      "https://bestware.com/de/xmg-core-16-m25.html",
+      "https://www.gigabyte.com/Laptop/AERO-X16-Copilot-PC/sp",
+      "https://www.one.de/gaming-laptops/gigabyte-gaming-laptop/gigabyte-aero-x16-2wha3dec65ap/84533",
+      "https://www.xmg.gg/en/xmg-core-16-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5050-8-gb-115-w",
+    "type": "gpu",
+    "name": "RTX 5050 | 8 GB | 115 W",
+    "comparison_score": 60,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.pcspecialist.de/notebooks/ionico-ii-16/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5060-8-gb-100-w",
+    "type": "gpu",
+    "name": "RTX 5060 | 8 GB | 100 W",
+    "comparison_score": 76,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5060-8-gb-115-w",
+    "type": "gpu",
+    "name": "RTX 5060 | 8 GB | 115 W",
+    "comparison_score": 76,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl.html",
+      "https://bestware.com/de/xmg-core-16-m25.html",
+      "https://geizhals.de/asus-tuf-gaming-a16-2025-fa608um-rv136w-90nr0kv1-m008z0-a3670472.html",
+      "https://geizhals.de/lenovo-legion-pro-5-16adr10-83lt0009ge-a3588714.html",
+      "https://geizhals.de/tulpar-t6-v3-5-1-a3763726.html",
+      "https://gzhls.at/blob/ldb/8/0/b/2/3c8a1c3fa777c54b8bfcc1168f144b6aabbf.pdf",
+      "https://media.medion.com/prod/medion/de_DE/0762/0719/0644/30039763.pdf",
+      "https://psref.lenovo.com/",
+      "https://www.acer.com/de-de/laptops/nitro/nitro-16s-ai-amd",
+      "https://www.computeruniverse.net/en/p/1C47-02V",
+      "https://www.galaxus.de/de/s1/product/asus-tuf-gaming-a16-rtx-5060-16-1000-gb-16-gb-de-amd-ryzen-7-260-notebook-62213459",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/209564240_-legion-5-pro-16-83f3003hpb-lenovo.html",
+      "https://www.medion.com/de/shop/p/core-gaming-notebooks-medion-erazer-defender-17-p1-core-gaming-laptop-intel-core-i7-13620h-ohne-os-43-9-cm-17-3--fhd-display-mit-144-hz-nvidia-geforce-rtx-5060-1-tb-ssd-16-gb-ram-30039763A1",
+      "https://www.tulparnotebook.de/t-serie/tulpar-t6-v3-5",
+      "https://www.tuxedocomputers.com/de/InfinityBook-Max-16-Gen10-AMD-Schlanke-Linux-Workstation-mit-Ryzen-AI-und-RTX-Grafik.tuxedo",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo",
+      "https://www.xmg.gg/en/news-new-product-xmg-core-16-value-edition-m25/",
+      "https://www.xmg.gg/en/xmg-core-16-m25/",
+      "https://www.xmg.gg/en/xmg-core-16-value-edition-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5060-8-gb-85-w",
+    "type": "gpu",
+    "name": "RTX 5060 | 8 GB | 85 W",
+    "comparison_score": 65,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/gigabyte-aero-x16-1vh93dec64ah-a3504780.html",
+      "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf",
+      "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+      "https://www.notebooksbilliger.de/gigabyte+aero+x16+1vh93dec64ah"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5060-8-gb-unknown-w",
+    "type": "gpu",
+    "name": "RTX 5060 | 8 GB | unknown W",
+    "comparison_score": 65,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://estore.asus.com/de/90nr0ne1-m00030-rog-zephyrus-g16-2025-ga605.html",
+      "https://gzhls.at/blob/ldb/1/3/7/e/e6cd57ef48c383997c91a18f7081962939e4.pdf",
+      "https://gzhls.at/blob/ldb/f/5/5/d/669d5cf0ac1d865509769ce9b431b5e564c2.pdf",
+      "https://preisvergleich.heise.de/hp-omen-gaming-laptop-16-ap0191ng-c2ak1ea-abd-a3572710.html",
+      "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-61-schwarz-nh-qxpeg-001",
+      "https://www.asus.com/de/laptops/for-gaming/all-series/asus-v16-v3607/where-to-buy/",
+      "https://www.hp.com/at-de/products/laptops/product-details/2103234866",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/207725195_-v16-v3607vm-rp036w-asus.html",
+      "https://www.idealo.de/preisvergleich/OffersOfProduct/208008719_-legion-5-pro-16-83lt004mge-lenovo.html",
+      "https://www.lenovo.com/de/de/p/laptops/legion-laptops/legion-5-series/legion-pro-5-gen-10-16-inch-amd/83lt004mge/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-ti-12-gb-110-w",
+    "type": "gpu",
+    "name": "RTX 5070 Ti | 12 GB | 110 W",
+    "comparison_score": 92,
+    "confidence": "medium",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://gzhls.at/blob/ldb/2/a/f/5/a90854dfc7b66015ea238598b8aaf58905b6.pdf",
+      "https://store.acer.com/de-de/acer-nitro-16-ai-pro-gaming-notebook-an16s-61-schwarz"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-ti-12-gb-140-w",
+    "type": "gpu",
+    "name": "RTX 5070 Ti | 12 GB | 140 W",
+    "comparison_score": 98,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://cdn-media.playox.de/product-management/products/assets/n2008278334/datasheets/G614FR_S5214W.pdf",
+      "https://de-store.msi.com/products/msi-laptop-vector-16-hx-ai-a2xwhg",
+      "https://estore.asus.com/de/90nr0nk8-m00b60-rog-strix-g16-2025-g614.html",
+      "https://geizhals.de/msi-vector-16-hx-ai-a2xwhg-074-0015m3-074-a3427350.html"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-ti-unknown-gb-unknown-w",
+    "type": "gpu",
+    "name": "RTX 5070 Ti | unknown GB | unknown W",
+    "comparison_score": 92,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/gigabyte-a16-pro-dxh-dxhg4decc4sh-a3758369.html",
+      "https://www.notebooksbilliger.de/gigabyte+gaming+a16+pro+dxhg4decc4sh"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-8-gb-100-w",
+    "type": "gpu",
+    "name": "RTX 5070 | 8 GB | 100 W",
+    "comparison_score": 82,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-8-gb-115-w",
+    "type": "gpu",
+    "name": "RTX 5070 | 8 GB | 115 W",
+    "comparison_score": 82,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl-upgrade-edition.html",
+      "https://bestware.com/de/xmg-core-16-m25-gamestar-xxxl.html",
+      "https://bestware.com/de/xmg-core-16-m25.html",
+      "https://estore.asus.com/de/90nr0kt1-m001x0-asus-tuf-gaming-a16-2025.html",
+      "https://estore.asus.com/de/90nr0kt1-m007k0-asus-tuf-gaming-a16-2025.html",
+      "https://geizhals.de/asus-tuf-gaming-a16-2025-fa608up-rv019w-90nr0kt1-m001x0-a3664282.html",
+      "https://gzhls.at/blob/ldb/e/5/f/2/fe97c94c8ceb35f896d319640ae9ecc10fb8.pdf",
+      "https://www.acer.com/de-de/laptops/nitro/nitro-16s-ai-amd/pdp/NH.QXTEG.002",
+      "https://www.chipstore.de/media/a6/60/33/1773243718/Highend%20Gaming%20I95-052GE.pdf",
+      "https://www.chipstore.de/p/captiva-gaming-laptop-i95-052ge/",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD.tuxedo",
+      "https://www.xmg.gg/en/xmg-core-16-m25/"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-8-gb-85-w",
+    "type": "gpu",
+    "name": "RTX 5070 | 8 GB | 85 W",
+    "comparison_score": 75,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/gigabyte-aero-x16-1wh93dec64ah-a3502136.html",
+      "https://www.cyberport.de/en/notebook-und-tablet/notebooks/gigabyte/pdp/1c37-07p/gigabyte-aero-x16-1wh-gaming-laptop-16-qhd-165-hz-ryzen-ai-7-350-32gb-1tb-ssd-rtx5070-win11.html"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-8-gb-unknown-w",
+    "type": "gpu",
+    "name": "RTX 5070 | 8 GB | unknown W",
+    "comparison_score": 65,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.at/asus-v16-v3607vp-rp028w-90nb16r1-m002z0-a3867779.html",
+      "https://www.alternate.de/OMEN/16-ap0192ng-Gaming-Notebook/html/product/100148860",
+      "https://www.asus.com/de/laptops/for-gaming/all-series/asus-v16-v3607/where-to-buy/",
+      "https://www.campuspoint.de/media/custom/upload/File-1762852249.pdf",
+      "https://www.hp.com/at-de/products/laptops/product-details/product-specifications/2103234909",
+      "https://www.lenovo.com/de/de/p/83LT004NGE"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-pro-1000-blackwell-8-gb-unknown-w",
+    "type": "gpu",
+    "name": "RTX PRO 1000 Blackwell | 8 GB | unknown W",
+    "comparison_score": 45,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.dell.com/de-de/shop/cty/pdp/spd/dell-pro-max-mc16250-laptop/bts123_mc16250_deat",
+      "https://www.dell.com/support/manuals/de-de/dell-pro-max-mc16250-laptop"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-pro-1000-8-gb-unknown-w",
+    "type": "gpu",
+    "name": "RTX Pro 1000 | 8 GB | unknown W",
+    "comparison_score": 45,
+    "confidence": "low",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://geizhals.de/dell-pro-16-max-mc16250-4jwk2-a3585438.html",
+      "https://www.dell.com/de-de/shop/cty/pdp/spd/dell-pro-max-mc16250-laptop/bts123_mc16250_deat"
+    ],
+    "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://laptops.dazu.xyz/schemas/laptop.schema.json",
+  "title": "Exact laptop configuration",
+  "type": "object",
+  "required": ["id", "brand", "model", "variant", "status", "confidence", "configuration_type", "os_status", "criteria_scores", "configuration_fingerprint"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "brand": {"type": "string", "minLength": 1},
+    "model": {"type": "string", "minLength": 1},
+    "sku": {"type": ["string", "null"]},
+    "sku_aliases": {"type": "array", "items": {"type": "string"}},
+    "variant": {"type": "string"},
+    "status": {"enum": ["shortlist", "watchlist", "discovered", "archived"]},
+    "confidence": {"enum": ["low", "medium", "high", "verified"]},
+    "configuration_type": {"type": "string"},
+    "os_status": {"enum": ["windows_included", "no_os", "linux", "selectable", "unknown"]},
+    "laptop_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+    "criteria_scores": {"type": "object"},
+    "configuration_fingerprint": {"type": "object"},
+    "verification": {"type": "object"},
+    "source_urls": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "regret_flags": {"type": "array", "items": {"type": "string"}},
+    "gpu_tgp_w": {"type": ["number", "null"], "minimum": 0},
+    "ram_gb": {"type": ["number", "null"], "minimum": 0},
+    "ssd_gb": {"type": ["number", "null"], "minimum": 0}
+  }
+}

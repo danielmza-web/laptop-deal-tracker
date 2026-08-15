@@ -1,0 +1,76 @@
+name: Update laptop data
+
+on:
+  schedule:
+    - cron: "17 5,11,17,23 * * *"
+    - cron: "43 6,18 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Tracking mode"
+        required: true
+        default: "all"
+        type: choice
+        options: [all, watchlist, discovery]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: laptop-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out tracker
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Choose tracking mode
+        id: mode
+        shell: bash
+        run: |
+          mode="${{ inputs.mode || 'watchlist' }}"
+          if [ "${{ github.event.schedule }}" = "43 6,18 * * *" ]; then mode="discovery"; fi
+          echo "value=$mode" >> "$GITHUB_OUTPUT"
+
+      - name: Get the current data branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code "$remote" refs/heads/data >/dev/null 2>&1; then
+            git clone --depth 1 --branch data "$remote" data-store
+          else
+            git clone --depth 1 "$remote" data-store
+            git -C data-store switch -c data
+          fi
+          mkdir -p data-store/public-data
+
+      - name: Run tests and tracker
+        working-directory: source
+        shell: bash
+        run: |
+          python -m unittest discover -s tests -v
+          python -m tracker --mode "${{ steps.mode.outputs.value }}" --previous ../data-store/public-data --output ../generated-data
+          python scripts/validate_data.py ../generated-data
+
+      - name: Publish data without rebuilding the website
+        env:
+          MODE: ${{ steps.mode.outputs.value }}
+        shell: bash
+        run: |
+          rm -rf data-store/public-data
+          cp -R generated-data data-store/public-data
+          git -C data-store config user.name "Laptop Deal Tracker"
+          git -C data-store config user.email "actions@users.noreply.github.com"
+          git -C data-store add public-data
+          if git -C data-store diff --cached --quiet; then exit 0; fi
+          git -C data-store commit -m "data: update ${MODE} snapshot"
+          git -C data-store push origin data
+

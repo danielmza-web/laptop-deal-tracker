@@ -1,0 +1,9 @@
+[project]
+name = "laptop-deal-tracker"
+version = "0.1.0"
+description = "A temporary, personal laptop deal tracker for buyers in Germany."
+requires-python = ">=3.11"
+
+[tool.unittest]
+start-directory = "tests"
+

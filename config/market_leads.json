@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-08-15",
+  "purpose": "Dated second-hand and marketplace research leads. These are not current scored offers until the exact SKU, live availability, condition, and seller terms are rechecked.",
+  "coverage_notes": [
+    "Amazon.de was searched, but no stable, clearly identified used or Amazon Retourenkauf listing suitable for automatic tracking was found.",
+    "Marketplace availability changes quickly. Private-sale leads require an in-person or protected-payment verification before purchase."
+  ],
+  "leads": [
+    {
+      "id": "kleinanzeigen-asus-v16-v3607vm-3449917498",
+      "marketplace": "Kleinanzeigen",
+      "title": "ASUS V16 V3607VM, Core 7 240H, RTX 5060, 16 GB, 1 TB",
+      "price_eur": 849,
+      "shipping_eur": 2.99,
+      "condition": "used_very_good",
+      "configuration_status": "family_and_components_match; exact suffix not shown",
+      "linked_laptop_id": "asus-v16-v3607vm",
+      "confidence": "medium",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/asus-notebook-v16-nvidia-rtx-5060-16gb-ram-1tb-ssd-gaming-laptop/3449917498-278-16300",
+      "downsides": ["16 GB requires a RAM upgrade", "WUXGA 300-nit weak-gamut display", "private sale; verify returns, invoice, battery and exact part number"]
+    },
+    {
+      "id": "kleinanzeigen-gigabyte-a16-cwhi3dec94sh-3447142217",
+      "marketplace": "Kleinanzeigen",
+      "title": "GIGABYTE Gaming A16 CWHI3DEC94SH, i7 13th gen, RTX 5060, 32 GB, 1 TB",
+      "price_eur": 920,
+      "shipping_eur": 2.99,
+      "condition": "used_very_good",
+      "configuration_status": "listing gives an exact model code; full manufacturer fingerprint still pending",
+      "linked_laptop_id": null,
+      "confidence": "medium",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/high-end-gaming-laptop-mit-rtx-5060-32gb-ddr5-ram/3447142217-278-1628",
+      "downsides": ["private sale with no warranty or return", "FHD-class display", "real GPU TGP, battery health and keyboard layout still need verification"]
+    },
+    {
+      "id": "kleinanzeigen-acer-nitro-v16-ai-3442009595",
+      "marketplace": "Kleinanzeigen",
+      "title": "Acer Nitro V 16 AI, Ryzen 7 260, RTX 5060, 32 GB, 1 TB",
+      "price_eur": 1200,
+      "shipping_eur": 2.99,
+      "condition": "used_good",
+      "configuration_status": "components match a catalog family; exact Acer part number missing",
+      "linked_laptop_id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
+      "confidence": "low",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/acer-nitro-v16-ai-geforce-5060-32gb-ram-1tb-ssd/3442009595-278-20890",
+      "downsides": ["exact SKU not shown", "118 battery cycles and visible wear", "private sale with no warranty or return", "WUXGA rather than the preferred 2.5K display"]
+    },
+    {
+      "id": "ebay-lenovo-thinkbook-16p-g6-306976626874",
+      "marketplace": "eBay",
+      "title": "Lenovo ThinkBook 16p G6, Core Ultra 9 275HX, RTX 5060, 32 GB, 1 TB",
+      "price_eur": 1595.8,
+      "shipping_eur": 0,
+      "condition": "refurbished_very_good",
+      "configuration_status": "clear model and components; exact Lenovo machine type and GPU TGP pending",
+      "linked_laptop_id": null,
+      "confidence": "medium",
+      "url": "https://www.ebay.de/itm/306976626874",
+      "downsides": ["German keyboard", "light wear", "GPU TGP and exact machine type need verification", "confirm warranty and return terms before buying"]
+    },
+    {
+      "id": "ebay-xmg-mislabeled-ean-168362006578",
+      "marketplace": "eBay",
+      "title": "Listing claims XMG CORE 16 M25 Ryzen 9 / RTX 5060 / 32 GB / 1 TB",
+      "price_eur": 1595,
+      "shipping_eur": 0,
+      "condition": "new",
+      "configuration_status": "configuration_conflict_rejected",
+      "linked_laptop_id": null,
+      "confidence": "low",
+      "url": "https://www.ebay.de/itm/168362006578",
+      "downsides": ["EAN 4250519971230 resolves to an XMG APEX 16 MAX RTX 5070 Ti, not the advertised CORE 16", "CPU is only stated as Ryzen 9", "no returns shown", "do not buy or score until the seller proves the exact serial/configuration"]
+    }
+  ]
+}

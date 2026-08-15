@@ -1,0 +1,13 @@
+[
+  {
+    "id": "example-disabled-fixed-url",
+    "enabled": false,
+    "source": "manual",
+    "seller": "Example retailer",
+    "laptop_id": "gigabyte-aero-x16-1wh93dec64ah",
+    "url": "https://example.com/replace-with-a-real-product-url",
+    "country": "DE",
+    "condition": "new",
+    "notes": "Copy this entry to track a fixed product URL. JSON-LD Product pricing is detected automatically when available."
+  }
+]

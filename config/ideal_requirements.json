@@ -1,0 +1,17 @@
+{
+  "title": "My ideal laptop brief",
+  "summary": "A durable 16-inch Windows laptop for programming, computer vision, local AI, occasional CAD, productivity, and gaming. Target: 32 GB upgradeable RAM, 1 TB replaceable SSD, RTX 5060/5070+ judged by VRAM, real TGP and sustained cooling, a strong efficient modern CPU, 16:10 2560x1600-class 120-165 Hz matte/anti-glare display, QWERTY with numpad, good build and serviceability, preferably 2.2 kg or less, 70 Wh+ battery, USB-C PD, and Windows Hello as a bonus. Prefer two SO-DIMM and two M.2 slots. Ideal price is EUR 1,400-1,800; around EUR 2,000 is acceptable for an excellent low-compromise model, and more only if the long-term benefit is clear. Used/refurbished is acceptable only with a meaningful discount after checking condition, battery health, warranty, seller reputation, returns, keyboard, screen, wear, and SSD health. Always verify the exact SKU, keep unknowns explicit, show separate Laptop and Value Scores, list meaningful compromises and regret risks, and recommend Buy now, Strongly consider, Wait, or Skip.",
+  "must_haves": [
+    "Approximately 16 inches; Windows-ready; RTX 5060-class or better",
+    "32 GB RAM and 1 TB SSD, factory-installed or feasibly upgradeable",
+    "Strong sustained CPU/GPU performance for AI, CV, CAD, and programming",
+    "Exact SKU/configuration verified; unknown specifications stay Unknown"
+  ],
+  "strong_preferences": [
+    "16:10 2560x1600-class 120-165 Hz good-gamut anti-glare display",
+    "QWERTY keyboard with numpad; German QWERTZ is acceptable for a major advantage",
+    "Two SO-DIMM and two M.2 slots, accessible maintenance, durable chassis",
+    "At most 2.2 kg preferred, 70 Wh+ battery, USB-C PD, useful quiet mode"
+  ],
+  "score_weights": "GPU 22, CPU 16, memory/storage 12, cooling/build 12, keyboard 12, display 10, battery/charging 7, portability 5, Windows Hello 3, miscellaneous 1."
+}

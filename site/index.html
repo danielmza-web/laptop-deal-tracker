@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0f201d">
+    <meta name="description" content="A focused, temporary laptop deal tracker for buying in Germany.">
+    <title>Laptop Deal Tracker</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#overview" aria-label="Laptop Deal Tracker home">
+          <span class="brand-mark">LD</span>
+          <span><strong>Laptop Deal Tracker</strong><small>Temporary buying tool</small></span>
+        </a>
+        <div class="topbar-actions">
+          <span id="data-status" class="data-status">Loading data…</span>
+          <button id="refresh-button" class="icon-button" type="button" aria-label="Refresh deal data">↻</button>
+        </div>
+      </header>
+
+      <nav class="primary-nav" aria-label="Main sections">
+        <button class="nav-item active" type="button" data-view="overview"><span>⌂</span>Overview</button>
+        <button class="nav-item" type="button" data-view="laptops"><span>▦</span>Laptops</button>
+        <button class="nav-item" type="button" data-view="prices"><span>↗</span>Prices</button>
+        <button class="nav-item" type="button" data-view="sources"><span>◉</span>Sources</button>
+        <button class="nav-item" type="button" data-view="preferences"><span>⚙</span>Preferences</button>
+      </nav>
+
+      <main id="main" tabindex="-1">
+        <section id="purchase-banner" class="purchase-banner hidden" aria-live="polite"></section>
+
+        <section id="overview" class="overview">
+          <div class="hero-copy">
+            <span class="eyebrow">Best choice right now</span>
+            <h1 id="best-title">Looking for current offers</h1>
+            <p id="best-summary">The tracker is loading your shortlist and price history.</p>
+            <div id="best-actions" class="hero-actions"></div>
+          </div>
+          <div class="hero-scores" aria-label="Current best scores">
+            <div class="hero-score"><span id="best-laptop-score">—</span><small>Laptop</small></div>
+            <div class="hero-score value"><span id="best-value-score">—</span><small>Value</small></div>
+          </div>
+        </section>
+
+        <section class="change-strip" aria-label="Latest tracker summary">
+          <article><span class="summary-icon hot">🔥</span><div><strong id="major-deals">—</strong><small>major deals</small></div></article>
+          <article><span class="summary-icon down">↓</span><div><strong id="price-drops">—</strong><small>price drops · 24h</small></div></article>
+          <article><span class="summary-icon new">✦</span><div><strong id="new-models">—</strong><small>discovered</small></div></article>
+          <article><span class="summary-icon live">●</span><div><strong id="active-offers">—</strong><small>active offers</small></div></article>
+        </section>
+
+        <section class="content-head">
+          <div>
+            <span id="view-eyebrow" class="eyebrow">Decision desk</span>
+            <h2 id="view-title">Overview</h2>
+            <p id="view-description">Best current value and best hardware fit remain separate.</p>
+          </div>
+          <button id="filter-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="filters">Filters <span id="filter-count"></span></button>
+        </section>
+
+        <section id="filters" class="filters hidden" aria-label="Laptop filters">
+          <label>Maximum effective price <input id="filter-price" type="number" min="0" step="50" placeholder="No limit"></label>
+          <label>GPU <select id="filter-gpu"><option value="">All GPUs</option></select></label>
+          <label>Brand <select id="filter-brand"><option value="">All brands</option></select></label>
+          <label>Status <select id="filter-status"><option value="">All statuses</option><option value="shortlist">Shortlist</option><option value="watchlist">Watchlist</option><option value="discovered">Discovered</option><option value="archived">Archived</option></select></label>
+          <label>Sort by <select id="sort-by"><option value="value">Value Score</option><option value="laptop">Laptop Score</option><option value="price">Effective price</option><option value="cpu">CPU score</option><option value="gpu">GPU score</option><option value="display">Display score</option><option value="portability">Portability</option></select></label>
+          <label class="check"><input id="filter-numpad" type="checkbox"> Numpad only</label>
+          <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+        </section>
+
+        <section id="view-content" class="cards" aria-live="polite">
+          <article class="empty-state"><span class="loader"></span><h3>Loading your tracker</h3><p>Checking the latest saved snapshot.</p></article>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="details-dialog" class="details-dialog">
+      <button id="dialog-close" class="dialog-close" type="button" aria-label="Close laptop details">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <script src="runtime-config.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

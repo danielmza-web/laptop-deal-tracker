@@ -1,0 +1,297 @@
+{
+  "source_rows": 47,
+  "master_records": 48,
+  "generated_from": [
+    "laptop_variants_2026-08-15.csv",
+    "laptop_scores_2026-08-15_v2.csv"
+  ],
+  "entries": [
+    {
+      "row": 1,
+      "source_model": "CORE 16 M25 AI 7 350 RTX 5060",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-ai7-350-rtx5060"
+    },
+    {
+      "row": 2,
+      "source_model": "CORE 16 M25 AI 9 365 RTX 5060 GameStar XXL",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-ai9-365-rtx5060"
+    },
+    {
+      "row": 3,
+      "source_model": "CORE 16 M25 AI 9 HX 370 RTX 5060",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-hx370-rtx5060"
+    },
+    {
+      "row": 4,
+      "source_model": "CORE 16 M25 AI 7 350 RTX 5070",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-ai7-350-rtx5070"
+    },
+    {
+      "row": 5,
+      "source_model": "CORE 16 M25 AI 9 365 RTX 5070 GameStar XXXL",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-ai9-365-rtx5070"
+    },
+    {
+      "row": 6,
+      "source_model": "CORE 16 M25 AI 9 HX 370 RTX 5070",
+      "action": "updated",
+      "target_id": "xmg-core-16-m25-hx370-rtx5070"
+    },
+    {
+      "row": 7,
+      "source_model": "CORE 16 Value Edition M25",
+      "action": "updated",
+      "target_id": "xmg-core-16-ve-m25"
+    },
+    {
+      "row": 8,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 7 350 RTX 5060",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-ai7-350-rtx5060"
+    },
+    {
+      "row": 9,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 9 365 RTX 5060",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-ai9-365-rtx5060"
+    },
+    {
+      "row": 10,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 9 HX 370 RTX 5060",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-hx370-rtx5060"
+    },
+    {
+      "row": 11,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 7 350 RTX 5070",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-ai7-350-rtx5070"
+    },
+    {
+      "row": 12,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 9 365 RTX 5070",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-ai9-365-rtx5070"
+    },
+    {
+      "row": 13,
+      "source_model": "InfinityBook Max 16 Gen10 AMD AI 9 HX 370 RTX 5070",
+      "action": "updated",
+      "target_id": "tuxedo-infinitybook-max16-g10-hx370-rtx5070"
+    },
+    {
+      "row": 14,
+      "source_model": "AERO X16 RTX 5060",
+      "action": "updated",
+      "target_id": "gigabyte-aero-x16-1vh93dec64ah"
+    },
+    {
+      "row": 15,
+      "source_model": "AERO X16 RTX 5070",
+      "action": "updated",
+      "target_id": "gigabyte-aero-x16-1wh93dec64ah"
+    },
+    {
+      "row": 16,
+      "source_model": "AERO X16 2WH reseller configuration",
+      "action": "updated",
+      "target_id": "gigabyte-aero-x16-2wha3dec65ap"
+    },
+    {
+      "row": 17,
+      "source_model": "Legion Pro 5 Gen 10 AMD RTX 5070",
+      "action": "updated",
+      "target_id": "lenovo-legion-pro5-83lt004nge"
+    },
+    {
+      "row": 18,
+      "source_model": "Legion Pro 5 Gen 10 AMD RTX 5060",
+      "action": "updated",
+      "target_id": "lenovo-legion-pro5-83lt004mge"
+    },
+    {
+      "row": 19,
+      "source_model": "Legion Pro 5 Gen 10 AMD OLED",
+      "action": "updated",
+      "target_id": "lenovo-legion-pro5-83lt0009ge"
+    },
+    {
+      "row": 20,
+      "source_model": "Legion Pro 5 Gen 10 Intel OLED",
+      "action": "updated",
+      "target_id": "lenovo-legion-pro5-83f3003hpb"
+    },
+    {
+      "row": 21,
+      "source_model": "TUF Gaming A16 RTX 5070 32GB",
+      "action": "updated",
+      "target_id": "asus-tuf-a16-fa608up-rv019w"
+    },
+    {
+      "row": 22,
+      "source_model": "TUF Gaming A16 RTX 5070 16GB",
+      "action": "updated",
+      "target_id": "asus-tuf-a16-fa608up-rv124w"
+    },
+    {
+      "row": 23,
+      "source_model": "TUF Gaming A16 RTX 5060 16GB",
+      "action": "updated",
+      "target_id": "asus-tuf-a16-fa608um-rv136w"
+    },
+    {
+      "row": 24,
+      "source_model": "V16 RTX 5060",
+      "action": "updated",
+      "target_id": "asus-v16-v3607vm"
+    },
+    {
+      "row": 25,
+      "source_model": "V16 RTX 5070",
+      "action": "updated",
+      "target_id": "asus-v16-v3607vp"
+    },
+    {
+      "row": 26,
+      "source_model": "Nitro V 16S AI AMD",
+      "action": "updated",
+      "target_id": "acer-nitro-v16s-anv16s41-nhqzyeg002"
+    },
+    {
+      "row": 27,
+      "source_model": "Nitro V 16S AI AMD/WQXGA",
+      "action": "updated",
+      "target_id": "acer-nitro-v16s-anv16s61-nhqxpeg001"
+    },
+    {
+      "row": 28,
+      "source_model": "Nitro 16S AI RTX 5060",
+      "action": "updated",
+      "target_id": "acer-nitro-16s-nhqxleg002"
+    },
+    {
+      "row": 29,
+      "source_model": "Nitro 16S AI RTX 5070",
+      "action": "updated",
+      "target_id": "acer-nitro-16s-nhqxteg002"
+    },
+    {
+      "row": 30,
+      "source_model": "Nitro 16S AI Pro RTX 5070 Ti",
+      "action": "updated",
+      "target_id": "acer-nitro-16s-nhu06eg002"
+    },
+    {
+      "row": 31,
+      "source_model": "ROG Strix G16",
+      "action": "updated",
+      "target_id": "asus-rog-strix-g16-g614fr-s5214w"
+    },
+    {
+      "row": 32,
+      "source_model": "Vector 16 HX AI",
+      "action": "updated",
+      "target_id": "msi-vector-16-hx-ai-a2xwhg-074"
+    },
+    {
+      "row": 33,
+      "source_model": "OMEN 16 RTX 5070",
+      "action": "updated",
+      "target_id": "hp-omen-16-ap0192ng"
+    },
+    {
+      "row": 34,
+      "source_model": "OMEN 16 RTX 5060",
+      "action": "updated",
+      "target_id": "hp-omen-16-ap0191ng"
+    },
+    {
+      "row": 35,
+      "source_model": "IONICO II 16 previous custom quote",
+      "action": "updated",
+      "target_id": "pcspecialist-ionico-ii-16-config-2026-08"
+    },
+    {
+      "row": 36,
+      "source_model": "IONICO II 16 current chassis",
+      "action": "historical_only",
+      "target_id": "pcspecialist-ionico-ii-16-config-2026-08",
+      "reason": "Same configurable IONICO II family; no exact saved configuration."
+    },
+    {
+      "row": 37,
+      "source_model": "Defiance 16 current chassis",
+      "action": "updated",
+      "target_id": "pcspecialist-defiance16-unverified"
+    },
+    {
+      "row": 38,
+      "source_model": "Pro Max 16 MC16250 previous custom configuration",
+      "action": "updated",
+      "target_id": "dell-pro-max-16-mc16250"
+    },
+    {
+      "row": 39,
+      "source_model": "Pro Max 16 MC16250 fixed retail",
+      "action": "updated",
+      "target_id": "dell-pro-max-16-mc16250-4jwk2"
+    },
+    {
+      "row": 40,
+      "source_model": "ERAZER Defender 17 P1",
+      "action": "updated",
+      "target_id": "medion-erazer-defender17-p1-30039763a1"
+    },
+    {
+      "row": 41,
+      "source_model": "ROG Zephyrus G16",
+      "action": "updated",
+      "target_id": "asus-zephyrus-g16-ga605km-qr003w"
+    },
+    {
+      "row": 42,
+      "source_model": "Gaming A16 Pro DXH",
+      "action": "updated",
+      "target_id": "gigabyte-gaming-a16-pro-dxhg4decc4sh"
+    },
+    {
+      "row": 43,
+      "source_model": "T6 V3.5.1",
+      "action": "replaced_placeholder",
+      "target_id": "tulpar-t6-v3-5-1"
+    },
+    {
+      "row": 44,
+      "source_model": "Highend Gaming I95-052GE",
+      "action": "replaced_placeholder",
+      "target_id": "captiva-highend-gaming-i95-052ge"
+    },
+    {
+      "row": 45,
+      "source_model": "Legion 7i Gen 10 previously considered",
+      "action": "updated",
+      "target_id": "lenovo-legion-7i-gen10-unverified"
+    },
+    {
+      "row": 46,
+      "source_model": "Legion Pro 5 Intel RTX 5070 Ti Dutch layout previously considered",
+      "action": "updated",
+      "target_id": "lenovo-legion-pro5-intel-5070ti-nl-unverified"
+    },
+    {
+      "row": 47,
+      "source_model": "Specific Clevo laptop previously considered",
+      "action": "updated",
+      "target_id": "clevo-unresolved-previous-candidate"
+    }
+  ],
+  "derived_current_records": [
+    "xmg-core-16-m25-gamestar-xxl-ai7-350-rtx5060-de",
+    "xmg-core-16-m25-gamestar-xxxl-ai7-350-rtx5070-de"
+  ]
+}
