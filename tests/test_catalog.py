@@ -13,6 +13,7 @@ class CatalogTests(unittest.TestCase):
     def setUpClass(cls):
         cls.laptops = json.loads((ROOT / "config" / "laptops.json").read_text(encoding="utf-8"))
         cls.sources = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
+        cls.manual_offers = json.loads((ROOT / "config" / "manual_offers.json").read_text(encoding="utf-8"))
         cls.components = json.loads((ROOT / "config" / "components.json").read_text(encoding="utf-8"))
         cls.preferences = json.loads((ROOT / "config" / "preferences.yaml").read_text(encoding="utf-8"))
         cls.reconciliation = json.loads((ROOT / "config" / "reconciliation_2026-08-15.json").read_text(encoding="utf-8"))
@@ -22,7 +23,17 @@ class CatalogTests(unittest.TestCase):
     def test_master_catalog_has_unique_ids(self):
         ids = [laptop["id"] for laptop in self.laptops]
         self.assertEqual(len(ids), len(set(ids)))
-        self.assertEqual(len(ids), 48)
+        self.assertEqual(len(ids), 50)
+
+    def test_new_galaxus_candidates_update_or_add_exact_skus_without_duplicates(self):
+        expected = {
+            "83f3003hpb": "lenovo-legion-pro5-83f3003hpb",
+            "83lt000mus": "lenovo-legion-pro5-83lt000mus",
+            "83lt001wpb": "lenovo-legion-pro5-83lt001wpb",
+        }
+        for sku, record_id in expected.items():
+            matches = [item["id"] for item in self.laptops if (item.get("sku") or "").lower() == sku]
+            self.assertEqual(matches, [record_id], sku)
 
     def test_research_reconciliation_covers_every_supplied_row(self):
         self.assertEqual(self.reconciliation["source_rows"], 47)
@@ -51,6 +62,8 @@ class CatalogTests(unittest.TestCase):
         text = self.ideal["summary"]
         for phrase in ("32 GB", "1 TB", "RTX 5060", "QWERTY", "Laptop and Value Scores"):
             self.assertIn(phrase, text)
+        for section in ("primary_uses", "ideal_configuration", "deal_breakers", "tradeoff_rules", "used_refurbished_checks", "price_guidance", "evaluation_output"):
+            self.assertTrue(self.ideal[section], section)
 
     def test_all_scored_records_reproduce_and_components_resolve(self):
         component_ids = {item["id"] for item in self.components}
@@ -64,7 +77,13 @@ class CatalogTests(unittest.TestCase):
     def test_every_fixed_source_targets_a_known_laptop(self):
         ids = {laptop["id"] for laptop in self.laptops}
         missing = [source["laptop_id"] for source in self.sources if source.get("type") == "product" and source.get("laptop_id") not in ids]
+        missing.extend(source["laptop_id"] for source in self.manual_offers if source.get("enabled") and source.get("laptop_id") not in ids)
         self.assertEqual(missing, [])
+
+    def test_enabled_manual_offers_have_identity_guards(self):
+        enabled = [source for source in self.manual_offers if source.get("enabled")]
+        self.assertTrue(enabled)
+        self.assertTrue(all(source.get("expected_sku") for source in enabled))
 
     def test_exact_unknowns_remain_null(self):
         by_id = {laptop["id"]: laptop for laptop in self.laptops}

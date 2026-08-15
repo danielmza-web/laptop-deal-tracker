@@ -1,17 +1,69 @@
 {
   "title": "My ideal laptop brief",
-  "summary": "A durable 16-inch Windows laptop for programming, computer vision, local AI, occasional CAD, productivity, and gaming. Target: 32 GB upgradeable RAM, 1 TB replaceable SSD, RTX 5060/5070+ judged by VRAM, real TGP and sustained cooling, a strong efficient modern CPU, 16:10 2560x1600-class 120-165 Hz matte/anti-glare display, QWERTY with numpad, good build and serviceability, preferably 2.2 kg or less, 70 Wh+ battery, USB-C PD, and Windows Hello as a bonus. Prefer two SO-DIMM and two M.2 slots. Ideal price is EUR 1,400-1,800; around EUR 2,000 is acceptable for an excellent low-compromise model, and more only if the long-term benefit is clear. Used/refurbished is acceptable only with a meaningful discount after checking condition, battery health, warranty, seller reputation, returns, keyboard, screen, wear, and SSD health. Always verify the exact SKU, keep unknowns explicit, show separate Laptop and Value Scores, list meaningful compromises and regret risks, and recommend Buy now, Strongly consider, Wait, or Skip.",
-  "must_haves": [
-    "Approximately 16 inches; Windows-ready; RTX 5060-class or better",
-    "32 GB RAM and 1 TB SSD, factory-installed or feasibly upgradeable",
-    "Strong sustained CPU/GPU performance for AI, CV, CAD, and programming",
-    "Exact SKU/configuration verified; unknown specifications stay Unknown"
+  "summary": "A durable 16-inch Windows-ready laptop for programming, computer vision, local AI, occasional CAD, productivity, and gaming. The ideal configuration has a modern efficient CPU, an RTX 5060/5070-class GPU assessed by VRAM, real TGP, and sustained cooling, 32 GB upgradeable RAM, a replaceable 1 TB SSD, a 16:10 2560x1600-class high-refresh display, and an English QWERTY keyboard with numpad. Prefer two SO-DIMM and two M.2 slots, good serviceability, USB-C charging, 70 Wh or more, and a weight near 2.2 kg or less. Ideal ready-to-use price is EUR 1,400-1,800; about EUR 2,000 is acceptable for a genuinely low-compromise model. Always verify the exact SKU and keyboard, keep unknowns explicit, show separate Laptop and Value Scores, and explain compromises before recommending Buy now, Strongly consider, Wait, or Skip.",
+  "primary_uses": [
+    "Programming, containers, virtual machines, and general productivity",
+    "Computer vision and local AI experimentation using NVIDIA CUDA",
+    "Occasional CAD, creative work, and external-monitor use",
+    "Gaming at the native display resolution with sensible quality settings",
+    "A dependable main computer expected to remain useful for several years"
   ],
+  "must_haves": [
+    "Approximately 16 inches and Windows-ready; no-OS models are acceptable when Windows cost is included",
+    "RTX 5060-class or better with at least 8 GB VRAM and a verified real power profile",
+    "32 GB RAM and 1 TB SSD, factory-installed or feasibly upgradeable before use",
+    "Strong sustained CPU/GPU performance with cooling suitable for long AI, CV, CAD, and compile workloads",
+    "Exact model, SKU, keyboard, OS, RAM, storage, GPU, and TGP verified; critical unknowns block Buy now"
+  ],
+  "ideal_configuration": {
+    "display": "16:10, 2560x1600-class, 120-165 Hz or faster, good colour coverage and brightness; matte/anti-glare preferred. OLED is welcome only after accepting reflections and burn-in considerations.",
+    "cpu": "A strong current-generation processor with excellent sustained multi-core performance and good efficiency; Ryzen AI 7/9-class or a comparable Intel option is preferred over an older power-hungry HX chip when performance is similar.",
+    "gpu": "RTX 5060 or RTX 5070 minimum target, judged by 8 GB+ VRAM, actual TGP, cooling, and sustained performance rather than the GPU name alone. More VRAM is valuable for local AI and long-term use.",
+    "memory_storage": "32 GB dual-channel RAM and 1 TB NVMe SSD at purchase or through practical upgrades; two SO-DIMM slots and two M.2 slots are strongly preferred.",
+    "keyboard": "English or international QWERTY with a numpad. German QWERTZ is acceptable only for a meaningful price, performance, or availability advantage.",
+    "build_cooling": "Durable chassis, stable hinges, sensible fan behaviour, a useful quiet mode, accessible internals, replaceable storage and memory, and cooling that avoids severe sustained throttling.",
+    "portability": "Around 2.2 kg or less is ideal; up to roughly 2.5 kg is acceptable for a clearly better machine. Charger size and the combined carry weight also matter.",
+    "battery_charging": "70 Wh or larger battery, useful light-work battery life, and USB-C Power Delivery for travel or light use even when the full-power charger is still required for performance.",
+    "camera_security_ports": "Windows Hello is a bonus rather than a requirement. Prefer a privacy shutter, HDMI, multiple USB-A and USB-C ports, display output, Ethernet or a practical adapter path, modern Wi-Fi, and reliable external-display support."
+  },
   "strong_preferences": [
-    "16:10 2560x1600-class 120-165 Hz good-gamut anti-glare display",
-    "QWERTY keyboard with numpad; German QWERTZ is acceptable for a major advantage",
-    "Two SO-DIMM and two M.2 slots, accessible maintenance, durable chassis",
-    "At most 2.2 kg preferred, 70 Wh+ battery, USB-C PD, useful quiet mode"
+    "Two SO-DIMM and two M.2 slots, accessible maintenance, documented parts, and a durable chassis",
+    "English/international QWERTY with numpad and a comfortable layout for coding",
+    "At most 2.2 kg preferred, 70 Wh+ battery, USB-C PD, and a useful quiet mode",
+    "Good warranty and returns in Germany or the EU, with no avoidable import or keyboard complications"
+  ],
+  "deal_breakers": [
+    "Unverified or conflicting identity, especially CPU, GPU, TGP, keyboard, OS, RAM, or SSD",
+    "RAM or storage below the target when the required upgrade is impossible or uneconomical",
+    "A low-power GPU variant or weak cooling that materially undercuts the advertised GPU tier",
+    "Serious condition, battery, warranty, return, seller, screen, keyboard, or SSD concerns on a used unit",
+    "A high effective price that is justified only by branding rather than meaningful long-term benefit"
+  ],
+  "tradeoff_rules": [
+    "Laptop Score measures hardware fit only; Value Score measures the current ready-to-use deal and must remain separate.",
+    "Effective price includes shipping plus Windows, RAM, and SSD allowances required to reach a usable configuration.",
+    "A heavier, louder, or QWERTZ model needs a real price or performance advantage to compensate.",
+    "Prefer a balanced, serviceable RTX 5060/5070 machine over a nominally faster model with poor TGP, cooling, or upgradeability.",
+    "Do not pay above EUR 2,000 unless the extra cost clearly improves performance, display, build, portability, battery, warranty, or longevity."
+  ],
+  "used_refurbished_checks": [
+    "Require a meaningful discount after Windows and upgrade costs; apply the used/refurbished condition multiplier.",
+    "Confirm exact SKU and original configuration, seller reputation, invoice, warranty, returns, and whether the device is account- or firmware-locked.",
+    "Check battery health and cycle count, SSD health, screen defects or burn-in, hinges, ports, keyboard layout and wear, fans, temperatures, charger, and cosmetic damage.",
+    "Treat missing proof, stock photos, conflicting specifications, or unusually low pricing as risk flags rather than a deal."
+  ],
+  "price_guidance": [
+    "EUR 1,400-1,600 effective: excellent territory for a verified, well-balanced RTX 5060/5070 configuration.",
+    "EUR 1,600-1,800 effective: normal target range; compare compromises carefully.",
+    "EUR 1,800-2,000 effective: acceptable for a clearly stronger, low-compromise laptop.",
+    "Above EUR 2,000 effective: wait unless the extra long-term benefit is specific and substantial."
+  ],
+  "evaluation_output": [
+    "Identify the exact SKU and configuration and state confidence and any unknown fields.",
+    "Show CPU and GPU comparison indices plus the ten criterion scores and price-independent Laptop Score.",
+    "Show listing price, shipping, Windows/RAM/SSD adjustments, effective price, and separate Value Score.",
+    "List the most important advantages, compromises, regret risks, and how it compares with the XMG CORE 16 reference.",
+    "End with Buy now, Strongly consider, Wait, Skip, or Unrated and a concise reason."
   ],
   "score_weights": "GPU 22, CPU 16, memory/storage 12, cooling/build 12, keyboard 12, display 10, battery/charging 7, portability 5, Windows Hello 3, miscellaneous 1."
 }

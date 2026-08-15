@@ -482,5 +482,18 @@
       "https://www.dell.com/de-de/shop/cty/pdp/spd/dell-pro-max-mc16250-laptop/bts123_mc16250_deat"
     ],
     "notes": "Normalized comparison index from the fixed personal scoring rubric; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-ryzen-9-8945hx",
+    "type": "cpu",
+    "name": "Ryzen 9 8945HX",
+    "comparison_score": 82,
+    "confidence": "high",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-rtx-5070-16-1000-gb-32-gb-eng-int-amd-ryzen-9-8945hx-notebooks-60402913",
+      "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
+    ],
+    "notes": "Personal comparison index based on the exact 16-core/32-thread 2.5-5.4 GHz platform evidence and its position near the Ryzen 9 8940HX; not a universal benchmark percentage."
   }
 ]

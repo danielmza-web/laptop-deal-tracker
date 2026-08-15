@@ -19,7 +19,9 @@ The project is deliberately small. It is meant to run for a few months, help mak
 
 Historical prices supplied in `config/laptops.json` are reference points only. They are never presented as current offers.
 
-The reconciled master catalog contains 48 exact or research-stage records from the 47-row research set. The row-by-row result is in `config/reconciliation_2026-08-15.json`. Automatic catalog discoveries are stored separately and do not overwrite an exact configuration unless its identity and expected fingerprint match.
+The reconciled master catalog contains 50 exact or research-stage records: the 47-row research set, derived current fixed variants, and later exact additions. The row-by-row result and post-research additions are in `config/reconciliation_2026-08-15.json`. Automatic catalog discoveries are stored separately and do not overwrite an exact configuration unless its identity and expected fingerprint match.
+
+To resume the project in another task or on another computer, start with [`CONTEXT.md`](CONTEXT.md). To submit a retailer link or screenshots for a new laptop, use [`CANDIDATE_INTAKE.md`](CANDIDATE_INTAKE.md); the same full submission prompt can be copied from the dashboard's Preferences area.
 
 ## Architecture
 
@@ -90,6 +92,12 @@ Edit `config/manual_offers.json` and copy the disabled example:
 The generic adapter reads public JSON-LD Product data when the page provides it. If the page is blocked, requires JavaScript, or lacks a reliable price, the adapter reports the problem and keeps the previous valid observation. It does not bypass protection.
 
 Add a new variant to `config/laptops.json` before attaching a fixed URL. Use a manufacturer + model + SKU identity whenever possible. Use `null` for unknown specifications.
+
+## Adding a laptop you find
+
+Send the product link, screenshots, or both in a Codex task with this repository. The candidate intake process extracts listing evidence, researches missing specifications from reliable sources, checks SKU aliases and the full configuration fingerprint for duplicates, and then either updates the existing record or creates a genuinely distinct exact configuration. It calculates component indices, criterion scores, Laptop Score, effective price, Value Score, and recommendation before publishing.
+
+Screenshots and unavailable listings are preserved as dated evidence rather than live offers. The final identity check is reviewed deliberately: a marketplace title or family name alone is not allowed to create a record or attach a price. See [`CANDIDATE_INTAKE.md`](CANDIDATE_INTAKE.md) for the checklist and reusable request.
 
 ## Scores, effective prices, and decisions
 

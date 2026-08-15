@@ -1,6 +1,6 @@
 {
   "source_rows": 47,
-  "master_records": 48,
+  "master_records": 50,
   "generated_from": [
     "laptop_variants_2026-08-15.csv",
     "laptop_scores_2026-08-15_v2.csv"
@@ -293,5 +293,22 @@
   "derived_current_records": [
     "xmg-core-16-m25-gamestar-xxl-ai7-350-rtx5060-de",
     "xmg-core-16-m25-gamestar-xxxl-ai7-350-rtx5070-de"
+  ],
+  "post_research_additions": [
+    {
+      "id": "lenovo-legion-pro5-83lt000mus",
+      "action": "added_exact_configuration",
+      "reason": "English-international Ryzen 7 8745HX / RTX 5060 SKU is distinct from the existing German-QWERTZ 83LT0009GE record."
+    },
+    {
+      "id": "lenovo-legion-pro5-83lt001wpb",
+      "action": "added_exact_configuration",
+      "reason": "Ryzen 9 8945HX / RTX 5070 SKU was not present in the 47-row research set."
+    },
+    {
+      "id": "lenovo-legion-pro5-83f3003hpb",
+      "action": "updated_existing_configuration",
+      "reason": "The supplied Galaxus screenshot and item page confirm the existing Intel SKU; no duplicate was created."
+    }
   ]
 }

@@ -16,6 +16,8 @@ The website is the viewing layer. Python and the append-only data snapshot are t
 
 The primary question is: **Does buying this exact laptop configuration at its ready-to-use price make more sense than continuing to wait for the XMG CORE 16 or another materially better alternative?**
 
+Operational continuation details, live links, current catalog state, and the handoff checklist are kept in `CONTEXT.md`. New user-found links and screenshots follow `CANDIDATE_INTAKE.md`.
+
 ## Non-negotiable behavior
 
 - Everything in the project is written in English.

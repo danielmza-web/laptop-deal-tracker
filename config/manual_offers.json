@@ -9,5 +9,29 @@
     "country": "DE",
     "condition": "new",
     "notes": "Copy this entry to track a fixed product URL. JSON-LD Product pricing is detected automatically when available."
+  },
+  {
+    "id": "galaxus-legion-pro5-83f3003hpb",
+    "enabled": true,
+    "source": "galaxus",
+    "seller": "Galaxus Germany",
+    "laptop_id": "lenovo-legion-pro5-83f3003hpb",
+    "expected_sku": "83F3003HPB",
+    "url": "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-16-1000-gb-32-gb-eng-int-intel-core-ultra-7-255hx-notebooks-60905843",
+    "country": "DE",
+    "condition": "new",
+    "notes": "Exact English-international, no-OS configuration. The tracker verifies the fingerprint before attaching a live price."
+  },
+  {
+    "id": "galaxus-legion-pro5-83lt001wpb",
+    "enabled": true,
+    "source": "galaxus",
+    "seller": "Galaxus Germany",
+    "laptop_id": "lenovo-legion-pro5-83lt001wpb",
+    "expected_sku": "83LT001WPB",
+    "url": "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-rtx-5070-16-1000-gb-32-gb-eng-int-amd-ryzen-9-8945hx-notebooks-60402913",
+    "country": "DE",
+    "condition": "new",
+    "notes": "Exact English-international, no-OS configuration. The tracker verifies the fingerprint before attaching a live price."
   }
 ]
