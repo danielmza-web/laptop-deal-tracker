@@ -131,9 +131,11 @@ function decorate(laptop) {
 
 function allLaptops() { return (state.data?.laptops || []).map(decorate); }
 
-function naturalDirection(key) { return ["price", "model"].includes(key) ? "asc" : "desc"; }
+function naturalDirection(key) { return ["price", "model", "os"].includes(key) ? "asc" : "desc"; }
 function laptopSortValue(item, key) {
   if (key === "model") return `${item.brand || ""} ${item.model || ""}`.toLowerCase();
+  if (key === "os") return osLabel(item.best_offer?.price_breakdown?.os_status || item.os_status).toLowerCase();
+  if (key === "decision") return ({ "BUY NOW": 5, "STRONGLY CONSIDER": 4, WAIT: 3, SKIP: 2, UNRATED: 1 })[item.decision] ?? null;
   if (key === "price") return item.best_offer?.effective_price ?? null;
   if (key === "laptop") return item.laptop_score ?? null;
   if (key === "value") return item.value_score ?? null;
@@ -311,11 +313,13 @@ function familyGroups(matches, all) {
       cpu_score: best(item => item.criteria_scores?.cpu), gpu_score: best(item => item.criteria_scores?.gpu),
       display_score: best(item => item.criteria_scores?.display), portability_score: best(item => item.criteria_scores?.portability),
       decisions, priced: current.length,
+      os_sort: textRange(group.items, item => osLabel(item.best_offer?.price_breakdown?.os_status || item.os_status)).toLowerCase(),
+      decision_score: best(item => ({ "BUY NOW": 5, "STRONGLY CONSIDER": 4, WAIT: 3, SKIP: 2, UNRATED: 1 })[item.decision]),
     };
   });
 }
 function groupSortValue(group, key) {
-  return ({ model: group.label.toLowerCase(), laptop: group.laptop_score, value: group.value_score, price: group.effective_price, cpu: group.cpu_score, gpu: group.gpu_score, display: group.display_score, portability: group.portability_score })[key] ?? null;
+  return ({ model: group.label.toLowerCase(), laptop: group.laptop_score, value: group.value_score, price: group.effective_price, cpu: group.cpu_score, gpu: group.gpu_score, display: group.display_score, portability: group.portability_score, os: group.os_sort, decision: group.decision_score })[key] ?? null;
 }
 function sortedGroups(groups) { return [...groups].sort((a, b) => compareValues(groupSortValue(a, state.sort), groupSortValue(b, state.sort)) || compareValues(a.laptop_score, b.laptop_score, "desc") || a.label.localeCompare(b.label)); }
 function variantRow(laptop, nested = false) {
@@ -344,7 +348,7 @@ function renderLaptopTable() {
   $("#view-content").className = "catalog-view";
   if (!matches.length) { $("#view-content").innerHTML = emptyState("Nothing matches", "Clear filters or choose another status.", "∅"); return; }
   const toolbar = `<div class="catalog-toolbar"><div class="segmented" role="group" aria-label="Catalog view"><button data-catalog-mode="models" class="${state.catalogMode === "models" ? "active" : ""}" aria-pressed="${state.catalogMode === "models"}">Models</button><button data-catalog-mode="variants" class="${state.catalogMode === "variants" ? "active" : ""}" aria-pressed="${state.catalogMode === "variants"}">Variants</button></div><p>${matches.length} matching exact configuration${matches.length === 1 ? "" : "s"}</p></div>`;
-  const head = `<thead><tr>${sortHeader(state.catalogMode === "models" ? "Model" : "Laptop", "model")}${sortHeader("CPU", "cpu")}${sortHeader("GPU", "gpu")}${sortHeader("Laptop Score", "laptop")}${sortHeader("Value Score", "value")}${sortHeader("Effective price", "price")}<th>Windows</th><th>Decision</th></tr></thead>`;
+  const head = `<thead><tr>${sortHeader(state.catalogMode === "models" ? "Model" : "Laptop", "model")}${sortHeader("CPU", "cpu")}${sortHeader("GPU", "gpu")}${sortHeader("Laptop Score", "laptop")}${sortHeader("Value Score", "value")}${sortHeader("Effective price", "price")}${sortHeader("Windows", "os")}${sortHeader("Decision", "decision")}</tr></thead>`;
   if (state.catalogMode === "variants") {
     const laptops = sortedLaptops(matches);
     $("#view-content").innerHTML = `${toolbar}<div class="table-wrap desktop-table"><table>${head}<tbody>${laptops.map(item => variantRow(item)).join("")}</tbody></table></div><div class="mobile-cards">${laptops.map((item, index) => compactCard(item, index + 1)).join("")}</div>`;
