@@ -1,0 +1,90 @@
+[
+  {
+    "id": "xmg-core-16-m25",
+    "label": "XMG CORE 16 M25",
+    "members": [
+      "xmg-core-16-m25-ai7-350-rtx5060",
+      "xmg-core-16-m25-ai9-365-rtx5060",
+      "xmg-core-16-m25-hx370-rtx5060",
+      "xmg-core-16-m25-ai7-350-rtx5070",
+      "xmg-core-16-m25-ai9-365-rtx5070",
+      "xmg-core-16-m25-hx370-rtx5070",
+      "xmg-core-16-m25-gamestar-xxl-ai7-350-rtx5060-de",
+      "xmg-core-16-m25-gamestar-xxxl-ai7-350-rtx5070-de"
+    ]
+  },
+  {
+    "id": "tuxedo-infinitybook-max-16-gen10-amd",
+    "label": "TUXEDO InfinityBook Max 16 Gen10 AMD",
+    "members": [
+      "tuxedo-infinitybook-max16-g10-ai7-350-rtx5060",
+      "tuxedo-infinitybook-max16-g10-ai9-365-rtx5060",
+      "tuxedo-infinitybook-max16-g10-ai7-350-rtx5070",
+      "tuxedo-infinitybook-max16-g10-ai9-365-rtx5070",
+      "tuxedo-infinitybook-max16-g10-hx370-rtx5060",
+      "tuxedo-infinitybook-max16-g10-hx370-rtx5070"
+    ]
+  },
+  {
+    "id": "gigabyte-aero-x16",
+    "label": "GIGABYTE AERO X16",
+    "members": [
+      "gigabyte-aero-x16-1vh93dec64ah",
+      "gigabyte-aero-x16-1wh93dec64ah",
+      "gigabyte-aero-x16-2wha3dec65ap"
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-a16-2025",
+    "label": "ASUS TUF Gaming A16 (2025)",
+    "members": [
+      "asus-tuf-a16-fa608up-rv019w",
+      "asus-tuf-a16-fa608up-rv124w",
+      "asus-tuf-a16-fa608um-rv136w"
+    ]
+  },
+  {
+    "id": "asus-rog-zephyrus-g16-ga605-2025",
+    "label": "ASUS ROG Zephyrus G16 GA605 (2025)",
+    "members": [
+      "asus-zephyrus-g16-ga605km-qr003w",
+      "asus-zephyrus-g16-ga605kp-qr022w"
+    ]
+  },
+  {
+    "id": "asus-v16-v3607",
+    "label": "ASUS V16 V3607",
+    "members": [
+      "asus-v16-v3607vm",
+      "asus-v16-v3607vp"
+    ]
+  },
+  {
+    "id": "acer-nitro-16s-ai",
+    "label": "Acer Nitro 16S AI",
+    "members": [
+      "acer-nitro-16s-nhqxleg002",
+      "acer-nitro-16s-nhqxteg002",
+      "acer-nitro-16s-nhu06eg002"
+    ]
+  },
+  {
+    "id": "hp-omen-16-amd-2025",
+    "label": "HP OMEN 16 AMD",
+    "members": [
+      "hp-omen-16-ap0192ng",
+      "hp-omen-16-ap0191ng"
+    ]
+  },
+  {
+    "id": "lenovo-legion-pro-5-16adr10",
+    "label": "Lenovo Legion Pro 5 Gen 10 AMD / 16ADR10",
+    "members": [
+      "lenovo-legion-pro5-83lt004nge",
+      "lenovo-legion-pro5-83lt004mge",
+      "lenovo-legion-pro5-83lt0009ge",
+      "lenovo-legion-pro5-83lt000mus",
+      "lenovo-legion-pro5-83lt001wpb"
+    ]
+  }
+]

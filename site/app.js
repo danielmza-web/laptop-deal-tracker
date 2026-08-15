@@ -2,7 +2,10 @@ const state = {
   data: null,
   view: "overview",
   filters: { price: "", gpu: "", brand: "", status: "", numpad: false },
-  sort: "value",
+  sort: "laptop",
+  sortDirection: "desc",
+  catalogMode: localStorage.getItem("laptop-tracker-catalog-mode") || "models",
+  expandedFamilies: new Set(),
   preferences: JSON.parse(localStorage.getItem("laptop-tracker-preferences") || "{}"),
 };
 
@@ -128,14 +131,23 @@ function decorate(laptop) {
 
 function allLaptops() { return (state.data?.laptops || []).map(decorate); }
 
+function naturalDirection(key) { return ["price", "model"].includes(key) ? "asc" : "desc"; }
+function laptopSortValue(item, key) {
+  if (key === "model") return `${item.brand || ""} ${item.model || ""}`.toLowerCase();
+  if (key === "price") return item.best_offer?.effective_price ?? null;
+  if (key === "laptop") return item.laptop_score ?? null;
+  if (key === "value") return item.value_score ?? null;
+  return item.criteria_scores?.[key] ?? null;
+}
+function compareValues(a, b, direction = state.sortDirection) {
+  if (a == null && b == null) return 0;
+  if (a == null) return 1;
+  if (b == null) return -1;
+  const result = typeof a === "string" ? a.localeCompare(b) : a - b;
+  return direction === "asc" ? result : -result;
+}
 function sortedLaptops(items = allLaptops()) {
-  const key = state.sort;
-  return [...items].sort((a, b) => {
-    if (key === "price") return (a.best_offer?.effective_price ?? Infinity) - (b.best_offer?.effective_price ?? Infinity);
-    if (key === "laptop") return (b.laptop_score ?? -1) - (a.laptop_score ?? -1);
-    if (["cpu", "gpu", "display", "portability"].includes(key)) return (b.criteria_scores?.[key] ?? -1) - (a.criteria_scores?.[key] ?? -1);
-    return (b.value_score ?? -1) - (a.value_score ?? -1) || (b.laptop_score ?? -1) - (a.laptop_score ?? -1);
-  });
+  return [...items].sort((a, b) => compareValues(laptopSortValue(a, state.sort), laptopSortValue(b, state.sort)) || compareValues(a.laptop_score, b.laptop_score, "desc") || a.id.localeCompare(b.id));
 }
 
 function filtered(items) {
@@ -218,6 +230,8 @@ function renderFilters() {
   gpu.value = currentGpu; brand.value = currentBrand;
   $("#filter-status").value = state.filters.status;
   $("#sort-by").value = state.sort;
+  $("#sort-direction").textContent = state.sortDirection === "asc" ? "↑ Ascending" : "↓ Descending";
+  $("#sort-direction").setAttribute("aria-label", `Sort ${state.sortDirection === "asc" ? "ascending" : "descending"}`);
   const count = Object.values(state.filters).filter(Boolean).length;
   $("#filter-count").textContent = count ? `(${count})` : "";
 }
@@ -264,12 +278,81 @@ function renderOverview() {
   <section class="ranking-section"><div class="section-title"><div><span class="eyebrow">Price independent</span><h3>Best laptops overall</h3></div><p>Hardware fit only. Expensive laptops do not receive a higher score.</p></div><div class="opportunity-grid">${hardware.map((item, index) => compactCard(item, index + 1)).join("")}</div></section>`;
 }
 
+function distinct(items, getter) { return [...new Set(items.map(getter).filter(value => value !== null && value !== undefined && value !== ""))]; }
+function numericRange(items, getter, suffix = "") {
+  const values = distinct(items, getter).map(Number).filter(Number.isFinite).sort((a, b) => a - b);
+  if (!values.length) return "Unknown";
+  return values.length === 1 ? `${values[0]}${suffix}` : `${values[0]}–${values.at(-1)}${suffix}`;
+}
+function textRange(items, getter, scoreGetter = null) {
+  const values = distinct(items, getter);
+  if (!values.length) return "Unknown";
+  if (scoreGetter) values.sort((a, b) => Math.max(...items.filter(item => getter(item) === a).map(scoreGetter)) - Math.max(...items.filter(item => getter(item) === b).map(scoreGetter)));
+  else values.sort((a, b) => String(a).localeCompare(String(b)));
+  return values.length === 1 ? String(values[0]) : `${values[0]} → ${values.at(-1)}`;
+}
+function familyGroups(matches, all) {
+  const totals = new Map();
+  all.forEach(item => { const key = item.family_id || item.id; totals.set(key, (totals.get(key) || 0) + 1); });
+  const groups = new Map();
+  matches.forEach(item => {
+    const key = item.family_id || item.id;
+    if (!groups.has(key)) groups.set(key, { id: key, label: item.family_label || `${item.brand} ${item.model}`, items: [], total: totals.get(key) || 1 });
+    groups.get(key).items.push(item);
+  });
+  return [...groups.values()].map(group => {
+    const current = group.items.filter(item => item.best_offer?.effective_price != null);
+    const decisions = ["BUY NOW", "STRONGLY CONSIDER", "WAIT", "SKIP", "UNRATED"].map(decision => [decision, group.items.filter(item => item.decision === decision).length]).filter(([, count]) => count);
+    const best = getter => { const values = group.items.map(getter).filter(value => value != null); return values.length ? Math.max(...values) : null; };
+    return { ...group,
+      laptop_score: best(item => item.laptop_score),
+      value_score: current.length ? best(item => item.value_score) : null,
+      effective_price: current.length ? Math.min(...current.map(item => item.best_offer.effective_price)) : null,
+      cpu_score: best(item => item.criteria_scores?.cpu), gpu_score: best(item => item.criteria_scores?.gpu),
+      display_score: best(item => item.criteria_scores?.display), portability_score: best(item => item.criteria_scores?.portability),
+      decisions, priced: current.length,
+    };
+  });
+}
+function groupSortValue(group, key) {
+  return ({ model: group.label.toLowerCase(), laptop: group.laptop_score, value: group.value_score, price: group.effective_price, cpu: group.cpu_score, gpu: group.gpu_score, display: group.display_score, portability: group.portability_score })[key] ?? null;
+}
+function sortedGroups(groups) { return [...groups].sort((a, b) => compareValues(groupSortValue(a, state.sort), groupSortValue(b, state.sort)) || compareValues(a.laptop_score, b.laptop_score, "desc") || a.label.localeCompare(b.label)); }
+function variantRow(laptop, nested = false) {
+  return `<tr class="${nested ? "variant-row" : ""}"><td><button class="row-title" data-details="${escapeHtml(laptop.id)}"><strong>${escapeHtml(laptop.brand)} ${escapeHtml(laptop.model)}</strong><small>${escapeHtml(laptop.sku || laptop.sku_aliases?.[0] || "No exact SKU")}</small></button></td><td>${escapeHtml(display(laptop.cpu))}<small>${scoreText(laptop.criteria_scores?.cpu)}/100</small></td><td>${escapeHtml(display(laptop.gpu))}<small>${scoreText(laptop.criteria_scores?.gpu)}/100</small></td><td><strong>${scoreText(laptop.laptop_score)}</strong></td><td><strong>${scoreText(laptop.value_score)}</strong></td><td>${money(laptop.best_offer?.effective_price)}</td><td>${escapeHtml(osLabel(laptop.best_offer?.price_breakdown?.os_status || laptop.os_status))}</td><td><span class="pill ${decisionClass(laptop.decision)}">${escapeHtml(laptop.decision)}</span></td></tr>`;
+}
+function sortHeader(label, key) {
+  const active = state.sort === key, arrow = active ? (state.sortDirection === "asc" ? "↑" : "↓") : "";
+  return `<th aria-sort="${active ? (state.sortDirection === "asc" ? "ascending" : "descending") : "none"}"><button class="sort-header ${active ? "active" : ""}" data-sort-key="${key}">${label}<span aria-hidden="true">${arrow}</span></button></th>`;
+}
+function groupSummary(group) {
+  const items = group.items, prices = items.map(item => item.best_offer?.effective_price).filter(value => value != null);
+  const scoreRange = numericRange(items, item => item.laptop_score);
+  const decisionText = group.decisions.map(([name, count]) => `${count} ${name.toLowerCase()}`).join(" · ");
+  const matchText = items.length < group.total ? `${items.length} matching of ${group.total} total` : `${group.total} variant${group.total === 1 ? "" : "s"}`;
+  const details = `${numericRange(items, item => item.ram_gb, " GB RAM")} · ${numericRange(items, item => item.ssd_gb == null ? null : item.ssd_gb / 1000, " TB SSD")} · ${textRange(items, item => item.keyboard_layout)} · ${numericRange(items, item => item.weight_kg, " kg")}`;
+  const button = group.total > 1 ? `data-family-toggle="${escapeHtml(group.id)}" aria-expanded="${state.expandedFamilies.has(group.id)}"` : `data-details="${escapeHtml(items[0].id)}"`;
+  return `<tr class="family-row"><td><button class="row-title family-title" ${button}><strong>${escapeHtml(group.label)} <span>${group.total}</span></strong><small>${escapeHtml(matchText)} · ${escapeHtml(details)}</small></button></td><td>${escapeHtml(textRange(items, item => item.cpu, item => item.criteria_scores?.cpu ?? 0))}</td><td>${escapeHtml(textRange(items, item => item.gpu, item => item.criteria_scores?.gpu ?? 0))}</td><td><strong>${scoreRange}</strong></td><td><strong>${scoreText(group.value_score)}</strong><small>${group.priced} priced</small></td><td>${prices.length ? money(Math.min(...prices)) + (Math.min(...prices) !== Math.max(...prices) ? `–${money(Math.max(...prices))}` : "") : "Unknown"}</td><td>${escapeHtml(textRange(items, item => osLabel(item.best_offer?.price_breakdown?.os_status || item.os_status)))}</td><td><small>${escapeHtml(decisionText)}</small></td></tr>`;
+}
+function groupCard(group, index) {
+  const items = group.items, expanded = state.expandedFamilies.has(group.id), multi = group.total > 1;
+  const specs = `${textRange(items, item => item.cpu, item => item.criteria_scores?.cpu ?? 0)} · ${textRange(items, item => item.gpu, item => item.criteria_scores?.gpu ?? 0)} · ${numericRange(items, item => item.ram_gb, " GB RAM")} · Score ${numericRange(items, item => item.laptop_score)}`;
+  return `<article class="family-card"><button class="family-card-button" ${multi ? `data-family-toggle="${escapeHtml(group.id)}" aria-expanded="${expanded}"` : `data-details="${escapeHtml(items[0].id)}"`}><span class="rank">${index + 1}</span><span><strong>${escapeHtml(group.label)}</strong><small>${escapeHtml(items.length < group.total ? `${items.length} matching of ${group.total} total` : `${group.total} variant${group.total === 1 ? "" : "s"}`)}</small><em>${escapeHtml(specs)}</em></span><b>${scoreText(group.laptop_score)}</b></button>${expanded ? `<div class="family-card-variants">${sortedLaptops(items).map(item => compactCard(item)).join("")}</div>` : ""}</article>`;
+}
 function renderLaptopTable() {
-  const laptops = filtered(sortedLaptops());
+  const all = allLaptops(), matches = filtered(all);
   $("#view-content").className = "catalog-view";
-  if (!laptops.length) { $("#view-content").innerHTML = emptyState("Nothing matches", "Clear filters or choose another status.", "∅"); return; }
-  const rows = laptops.map(laptop => `<tr><td><button class="row-title" data-details="${escapeHtml(laptop.id)}"><strong>${escapeHtml(laptop.brand)} ${escapeHtml(laptop.model)}</strong><small>${escapeHtml(laptop.sku || laptop.sku_aliases?.[0] || "No exact SKU")}</small></button></td><td>${escapeHtml(display(laptop.cpu))}<small>${scoreText(laptop.criteria_scores?.cpu)}/100</small></td><td>${escapeHtml(display(laptop.gpu))}<small>${scoreText(laptop.criteria_scores?.gpu)}/100</small></td><td><strong>${scoreText(laptop.laptop_score)}</strong></td><td><strong>${scoreText(laptop.value_score)}</strong></td><td>${money(laptop.best_offer?.effective_price)}</td><td>${escapeHtml(osLabel(laptop.best_offer?.price_breakdown?.os_status || laptop.os_status))}</td><td><span class="pill ${decisionClass(laptop.decision)}">${escapeHtml(laptop.decision)}</span></td></tr>`).join("");
-  $("#view-content").innerHTML = `<div class="table-wrap desktop-table"><table><thead><tr><th>Laptop</th><th>CPU</th><th>GPU</th><th>Laptop</th><th>Value</th><th>Effective price</th><th>Windows</th><th>Decision</th></tr></thead><tbody>${rows}</tbody></table></div><div class="mobile-cards">${laptops.map((item, index) => compactCard(item, index + 1)).join("")}</div>`;
+  if (!matches.length) { $("#view-content").innerHTML = emptyState("Nothing matches", "Clear filters or choose another status.", "∅"); return; }
+  const toolbar = `<div class="catalog-toolbar"><div class="segmented" role="group" aria-label="Catalog view"><button data-catalog-mode="models" class="${state.catalogMode === "models" ? "active" : ""}" aria-pressed="${state.catalogMode === "models"}">Models</button><button data-catalog-mode="variants" class="${state.catalogMode === "variants" ? "active" : ""}" aria-pressed="${state.catalogMode === "variants"}">Variants</button></div><p>${matches.length} matching exact configuration${matches.length === 1 ? "" : "s"}</p></div>`;
+  const head = `<thead><tr>${sortHeader(state.catalogMode === "models" ? "Model" : "Laptop", "model")}${sortHeader("CPU", "cpu")}${sortHeader("GPU", "gpu")}${sortHeader("Laptop Score", "laptop")}${sortHeader("Value Score", "value")}${sortHeader("Effective price", "price")}<th>Windows</th><th>Decision</th></tr></thead>`;
+  if (state.catalogMode === "variants") {
+    const laptops = sortedLaptops(matches);
+    $("#view-content").innerHTML = `${toolbar}<div class="table-wrap desktop-table"><table>${head}<tbody>${laptops.map(item => variantRow(item)).join("")}</tbody></table></div><div class="mobile-cards">${laptops.map((item, index) => compactCard(item, index + 1)).join("")}</div>`;
+    return;
+  }
+  const groups = sortedGroups(familyGroups(matches, all));
+  const rows = groups.map(group => `${groupSummary(group)}${state.expandedFamilies.has(group.id) ? sortedLaptops(group.items).map(item => variantRow(item, true)).join("") : ""}`).join("");
+  $("#view-content").innerHTML = `${toolbar}<div class="table-wrap desktop-table"><table>${head}<tbody>${rows}</tbody></table></div><div class="mobile-cards">${groups.map(groupCard).join("")}</div>`;
 }
 
 function renderPrices() {
@@ -360,6 +443,13 @@ document.addEventListener("click", async event => {
   const nav = event.target.closest("[data-view]");
   if (nav) { state.view = nav.dataset.view; $$('[data-view]').forEach(item => item.classList.toggle("active", item.dataset.view === state.view)); history.replaceState(null, "", `#${state.view}`); renderView(); }
   const details = event.target.closest("[data-details]"); if (details) showDetails(details.dataset.details);
+  const catalogMode = event.target.closest("[data-catalog-mode]");
+  if (catalogMode) { state.catalogMode = catalogMode.dataset.catalogMode; localStorage.setItem("laptop-tracker-catalog-mode", state.catalogMode); renderView(); }
+  const familyToggle = event.target.closest("[data-family-toggle]");
+  if (familyToggle) { const id = familyToggle.dataset.familyToggle; state.expandedFamilies.has(id) ? state.expandedFamilies.delete(id) : state.expandedFamilies.add(id); renderView(); }
+  const sortHeader = event.target.closest("[data-sort-key]");
+  if (sortHeader) { const key = sortHeader.dataset.sortKey; state.sortDirection = state.sort === key ? (state.sortDirection === "asc" ? "desc" : "asc") : naturalDirection(key); state.sort = key; renderFilters(); renderView(); }
+  if (event.target.id === "sort-direction") { state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc"; renderFilters(); renderView(); }
   if (event.target.id === "refresh-button") loadData(true);
   if (event.target.id === "filter-toggle") { const filters = $("#filters"); filters.classList.toggle("hidden"); event.target.setAttribute("aria-expanded", String(!filters.classList.contains("hidden"))); }
   if (event.target.id === "clear-filters") { state.filters = { price: "", gpu: "", brand: "", status: "", numpad: false }; ["filter-price","filter-gpu","filter-brand","filter-status"].forEach(id => $(`#${id}`).value = ""); $("#filter-numpad").checked = false; renderFilters(); renderView(); }
@@ -387,7 +477,7 @@ $("#filters").addEventListener("input", event => {
   if (event.target.id === "filter-brand") state.filters.brand = event.target.value;
   if (event.target.id === "filter-status") state.filters.status = event.target.value;
   if (event.target.id === "filter-numpad") state.filters.numpad = event.target.checked;
-  if (event.target.id === "sort-by") state.sort = event.target.value;
+  if (event.target.id === "sort-by") { if (state.sort !== event.target.value) state.sortDirection = naturalDirection(event.target.value); state.sort = event.target.value; }
   renderFilters(); renderView();
 });
 

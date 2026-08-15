@@ -33,5 +33,17 @@
     "country": "DE",
     "condition": "new",
     "notes": "Exact English-international, no-OS configuration. The tracker verifies the fingerprint before attaching a live price."
+  },
+  {
+    "id": "asus-zephyrus-ga605kp-qr022w",
+    "enabled": true,
+    "source": "asus",
+    "seller": "ASUS eStore Germany",
+    "laptop_id": "asus-zephyrus-g16-ga605kp-qr022w",
+    "expected_sku": "GA605KP-QR022W",
+    "url": "https://estore.asus.com/de/90nr0nc1-m00120-rog-zephyrus-g16-2025-ga605.html",
+    "country": "DE",
+    "condition": "new",
+    "notes": "Exact official fixed SKU with Ryzen AI 7 350, RTX 5070 105 W, 32 GB, 1 TB, and Windows 11 Home. Fingerprint verification prevents attachment if the URL changes configuration."
   }
 ]

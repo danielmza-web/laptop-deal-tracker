@@ -19,11 +19,27 @@ class CatalogTests(unittest.TestCase):
         cls.reconciliation = json.loads((ROOT / "config" / "reconciliation_2026-08-15.json").read_text(encoding="utf-8"))
         cls.market_leads = json.loads((ROOT / "config" / "market_leads.json").read_text(encoding="utf-8"))
         cls.ideal = json.loads((ROOT / "config" / "ideal_requirements.json").read_text(encoding="utf-8"))
+        cls.families = json.loads((ROOT / "config" / "families.json").read_text(encoding="utf-8"))
 
     def test_master_catalog_has_unique_ids(self):
         ids = [laptop["id"] for laptop in self.laptops]
         self.assertEqual(len(ids), len(set(ids)))
-        self.assertEqual(len(ids), 50)
+        self.assertEqual(len(ids), 51)
+
+    def test_explicit_families_are_safe_and_zephyrus_variants_remain_exact(self):
+        known = {item["id"] for item in self.laptops}
+        members = [member for family in self.families for member in family["members"]]
+        self.assertEqual(len(members), len(set(members)))
+        self.assertTrue(set(members) <= known)
+        zephyrus = next(family for family in self.families if family["id"] == "asus-rog-zephyrus-g16-ga605-2025")
+        self.assertEqual(set(zephyrus["members"]), {"asus-zephyrus-g16-ga605km-qr003w", "asus-zephyrus-g16-ga605kp-qr022w"})
+        self.assertNotIn("xmg-core-16-m25-ve", next(family for family in self.families if family["id"] == "xmg-core-16-m25")["members"])
+
+    def test_new_zephyrus_exact_sku_is_unique(self):
+        matches = [item for item in self.laptops if item.get("sku") == "GA605KP-QR022W"]
+        self.assertEqual([item["id"] for item in matches], ["asus-zephyrus-g16-ga605kp-qr022w"])
+        self.assertEqual(matches[0]["ram_gb"], 32)
+        self.assertEqual(matches[0]["gpu_tgp_w"], 105)
 
     def test_new_galaxus_candidates_update_or_add_exact_skus_without_duplicates(self):
         expected = {

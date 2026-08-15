@@ -1,6 +1,6 @@
 {
   "source_rows": 47,
-  "master_records": 50,
+  "master_records": 51,
   "generated_from": [
     "laptop_variants_2026-08-15.csv",
     "laptop_scores_2026-08-15_v2.csv"
@@ -309,6 +309,11 @@
       "id": "lenovo-legion-pro5-83f3003hpb",
       "action": "updated_existing_configuration",
       "reason": "The supplied Galaxus screenshot and item page confirm the existing Intel SKU; no duplicate was created."
+    },
+    {
+      "id": "asus-zephyrus-g16-ga605kp-qr022w",
+      "action": "added_exact_configuration",
+      "reason": "The verified RTX 5070, 32 GB soldered-memory SKU is distinct from the existing RTX 5060, 16 GB GA605 configuration."
     }
   ]
 }

@@ -70,6 +70,8 @@ class PipelineTests(unittest.TestCase):
             dashboard = run_pipeline(ROOT, Path(temp) / "data", None, "all", offline=True)
             self.assertGreaterEqual(dashboard["summary"]["tracked_laptops"], 10)
             self.assertEqual(dashboard["summary"]["active_offers"], 0)
+            zephyrus = next(item for item in dashboard["laptops"] if item["id"] == "asus-zephyrus-g16-ga605kp-qr022w")
+            self.assertEqual(zephyrus["family_id"], "asus-rog-zephyrus-g16-ga605-2025")
 
 
 if __name__ == "__main__":

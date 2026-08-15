@@ -19,7 +19,9 @@ The project is deliberately small. It is meant to run for a few months, help mak
 
 Historical prices supplied in `config/laptops.json` are reference points only. They are never presented as current offers.
 
-The reconciled master catalog contains 50 exact or research-stage records: the 47-row research set, derived current fixed variants, and later exact additions. The row-by-row result and post-research additions are in `config/reconciliation_2026-08-15.json`. Automatic catalog discoveries are stored separately and do not overwrite an exact configuration unless its identity and expected fingerprint match.
+The reconciled master catalog contains 51 exact or research-stage records: the 47-row research set, derived current fixed variants, and later exact additions. The row-by-row result and post-research additions are in `config/reconciliation_2026-08-15.json`. Automatic catalog discoveries are stored separately and do not overwrite an exact configuration unless its identity and expected fingerprint match.
+
+The Laptops area opens in a concise **Models** view using explicit, reviewed family assignments from `config/families.json`. Expand a multi-variant model to see every exact SKU, or switch to **Variants** for the complete flat catalog. Filters apply before grouping, and desktop headers or the mobile sort controls can sort in either direction. Laptop Score descending is the default.
 
 To resume the project in another task or on another computer, start with [`CONTEXT.md`](CONTEXT.md). To submit a retailer link or screenshots for a new laptop, use [`CANDIDATE_INTAKE.md`](CANDIDATE_INTAKE.md); the same full submission prompt can be copied from the dashboard's Preferences area.
 

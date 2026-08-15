@@ -495,5 +495,31 @@
       "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
     ],
     "notes": "Personal comparison index based on the exact 16-core/32-thread 2.5-5.4 GHz platform evidence and its position near the Ryzen 9 8940HX; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5060-8-gb-105-w",
+    "type": "gpu",
+    "name": "RTX 5060 | 8 GB | 105 W",
+    "comparison_score": 74,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://rog.asus.com/de/laptops/rog-zephyrus/rog-zephyrus-g16-2025-ga605/spec/"
+    ],
+    "notes": "Personal comparison index for the verified 105 W Zephyrus profile; not a universal benchmark percentage."
+  },
+  {
+    "id": "gpu-rtx-5070-8-gb-105-w",
+    "type": "gpu",
+    "name": "RTX 5070 | 8 GB | 105 W",
+    "comparison_score": 80,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://estore.asus.com/de/90nr0nc1-m00120-rog-zephyrus-g16-2025-ga605.html",
+      "https://rog.asus.com/de/laptops/rog-zephyrus/rog-zephyrus-g16-2025-ga605/spec/",
+      "https://gzhls.at/blob/ldb/4/f/5/4/354a4ccfb1f6458324a4b2bf6a3e1ee0b458.pdf"
+    ],
+    "notes": "Personal comparison index for the verified 105 W Zephyrus profile; not a universal benchmark percentage."
   }
 ]

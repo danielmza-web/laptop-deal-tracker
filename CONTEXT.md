@@ -14,7 +14,8 @@ Live dashboard: <https://danielmza-web.github.io/laptop-deal-tracker/>
 
 - The static mobile/desktop dashboard is hosted by GitHub Pages.
 - Python tracking runs in GitHub Actions; normal data updates are written to the `data` branch without rebuilding the frontend.
-- The master catalog currently has 50 exact or research-stage records: the reconciled 47-row research set plus current fixed XMG variants and two additional exact Lenovo configurations.
+- The master catalog currently has 51 exact or research-stage records: the reconciled 47-row research set plus current fixed variants and later exact Lenovo and ASUS additions.
+- Laptops defaults to explicit family grouping with a remembered Models/Variants toggle. Grouping is presentation-only and never merges records, offers, fingerprints, or history.
 - Three user-found Galaxus listings were reconciled on 2026-08-15: existing Intel SKU `83F3003HPB` was updated, while English-keyboard AMD SKUs `83LT000MUS` and `83LT001WPB` were added separately.
 - Laptop Score is hardware-only. Value Score is price-dependent and uses ready-to-use cost. They are never combined.
 - The dashboard has Overview, Laptops, Prices, Sources, and Preferences. Shortlist, Watchlist, Discovered, and Archived are filters in Laptops.

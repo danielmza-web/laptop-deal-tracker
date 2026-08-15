@@ -190,12 +190,32 @@ main { max-width: 1320px; margin: 0 auto; padding: clamp(18px, 4vw, 52px); }
 .dual-scores strong, .dual-scores small { display: block; }.dual-scores strong { font-size: 19px; line-height: 1; }.dual-scores small { margin-top: 3px; color: var(--muted); font-size: 8px; text-transform: uppercase; }.dual-scores .value { background: #eef8f1; }
 
 .catalog-view { min-width: 0; }
+.catalog-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 12px; }
+.catalog-toolbar p { margin: 0; color: var(--muted); font-size: 11px; }
+.segmented { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 11px; background: #efefe8; }
+.segmented button { min-width: 84px; padding: 8px 13px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; font-weight: 800; }
+.segmented button.active { background: var(--surface); color: var(--ink); box-shadow: 0 1px 5px rgba(0,0,0,.1); }
 .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 15px; background: var(--surface); }
 table { width: 100%; border-collapse: collapse; font-size: 12px; }
 th { padding: 11px 12px; color: var(--muted); background: #efefe8; text-align: left; font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
+.sort-header { display: inline-flex; align-items: center; gap: 5px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; font-weight: 800; letter-spacing: inherit; text-transform: inherit; white-space: nowrap; }
+.sort-header:hover, .sort-header.active { color: #185d4d; }
 td { padding: 12px; border-top: 1px solid #e6e6df; vertical-align: middle; }
 td small { display: block; margin-top: 3px; color: var(--muted); font-size: 9px; }
 .row-title { max-width: 260px; padding: 0; border: 0; background: transparent; text-align: left; cursor: pointer; }.row-title strong, .row-title small { display: block; }.row-title strong { font-size: 12px; }
+.family-row td { background: #fbfaf5; }
+.family-title { max-width: 360px; }
+.family-title strong span { display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 5px; border-radius: 99px; background: #e3f3e8; color: #245f50; font-size: 9px; }
+.variant-row td { background: #f5f7f3; }
+.variant-row td:first-child { padding-left: 28px; border-left: 4px solid #85c8aa; }
+.family-card { overflow: hidden; border: 1px solid var(--line); border-radius: 15px; background: var(--surface); }
+.family-card-button { width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 16px; border: 0; background: transparent; text-align: left; cursor: pointer; }
+.family-card-button strong, .family-card-button small, .family-card-button em { display: block; }
+.family-card-button strong { font-size: 15px; }.family-card-button small { margin-top: 3px; color: var(--muted); font-size: 10px; }.family-card-button em { margin-top: 9px; color: #52605c; font-size: 10px; font-style: normal; line-height: 1.5; }
+.family-card-button > b { color: #245f50; font-size: 24px; }
+.family-card-variants { display: grid; gap: 8px; padding: 0 8px 8px; background: #f0f1eb; }
+.family-card-variants .opportunity-card { border-radius: 11px; }
+.sort-direction { align-self: end; white-space: nowrap; }
 .mobile-cards { display: none; gap: 10px; }
 .price-comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 14px 0; }.price-comparison div { padding: 10px; border-radius: 9px; background: #f0f1eb; }.price-comparison small, .price-comparison strong { display: block; }.price-comparison small { color: var(--muted); font-size: 9px; }.price-comparison strong { margin-top: 3px; font-size: 18px; }
 .prices-view { display: grid; gap: 48px; }

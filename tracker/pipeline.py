@@ -114,6 +114,19 @@ def run_pipeline(project_root: Path, output: Path, previous: Path | None = None,
     preferences = load_preferences(project_root / "config" / "preferences.yaml")
     seeded = read_json(project_root / "config" / "laptops.json", [])
     laptop_map = {item["id"]: item for item in seeded}
+    family_members: set[str] = set()
+    for family in read_json(project_root / "config" / "families.json", []):
+        for laptop_id in family.get("members", []):
+            if laptop_id not in laptop_map:
+                raise ValueError(f"Unknown laptop {laptop_id} in family {family['id']}")
+            if laptop_id in family_members:
+                raise ValueError(f"Laptop {laptop_id} belongs to more than one family")
+            family_members.add(laptop_id)
+            laptop_map[laptop_id] = {
+                **laptop_map[laptop_id],
+                "family_id": family["id"],
+                "family_label": family["label"],
+            }
     previous_laptops = read_json(previous / "laptops.json", []) if previous.exists() else []
     for laptop in previous_laptops:
         laptop_map.setdefault(laptop["id"], laptop)
