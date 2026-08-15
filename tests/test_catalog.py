@@ -20,6 +20,7 @@ class CatalogTests(unittest.TestCase):
         cls.market_leads = json.loads((ROOT / "config" / "market_leads.json").read_text(encoding="utf-8"))
         cls.ideal = json.loads((ROOT / "config" / "ideal_requirements.json").read_text(encoding="utf-8"))
         cls.families = json.loads((ROOT / "config" / "families.json").read_text(encoding="utf-8"))
+        cls.previous_shortlist = json.loads((ROOT / "config" / "reconciliation_previous_shortlist_2026-08-15.json").read_text(encoding="utf-8"))
 
     def test_master_catalog_has_unique_ids(self):
         ids = [laptop["id"] for laptop in self.laptops]
@@ -40,6 +41,21 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual([item["id"] for item in matches], ["asus-zephyrus-g16-ga605kp-qr022w"])
         self.assertEqual(matches[0]["ram_gb"], 32)
         self.assertEqual(matches[0]["gpu_tgp_w"], 105)
+
+    def test_previous_shortlist_is_fully_reconciled_without_missing_records(self):
+        known = {item["id"] for item in self.laptops}
+        self.assertEqual(self.previous_shortlist["source_models"], 20)
+        self.assertEqual(len(self.previous_shortlist["entries"]), 20)
+        referenced = [record_id for entry in self.previous_shortlist["entries"] for record_id in entry["record_ids"]]
+        self.assertTrue(set(referenced) <= known)
+        for sku in ("83LU0057MH", "83KYCTO1WWNL2", "DXHG4DECC4SH"):
+            self.assertEqual(sum(item.get("sku") == sku for item in self.laptops), 1, sku)
+        by_sku = {item.get("sku"): item for item in self.laptops}
+        self.assertEqual((by_sku["83LU0057MH"]["cpu"], by_sku["83LU0057MH"]["gpu_tgp_w"], by_sku["83LU0057MH"]["laptop_score"]), ("Core Ultra 9 275HX", 140, 89))
+        self.assertEqual((by_sku["83KYCTO1WWNL2"]["keyboard_layout"], by_sku["83KYCTO1WWNL2"]["windows_hello"], by_sku["83KYCTO1WWNL2"]["laptop_score"]), ("English EU QWERTY", True, 92))
+        self.assertEqual((by_sku["DXHG4DECC4SH"]["ram_gb"], by_sku["DXHG4DECC4SH"]["ssd_gb"], by_sku["DXHG4DECC4SH"]["gpu_tgp_w"]), (32, 1000, None))
+        retired = {"lenovo-legion-7i-gen10-unverified", "lenovo-legion-pro5-intel-5070ti-nl-unverified", "pcspecialist-defiance16-unverified"}
+        self.assertFalse(retired & known)
 
     def test_new_galaxus_candidates_update_or_add_exact_skus_without_duplicates(self):
         expected = {

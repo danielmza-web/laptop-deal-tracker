@@ -521,5 +521,18 @@
       "https://gzhls.at/blob/ldb/4/f/5/4/354a4ccfb1f6458324a4b2bf6a3e1ee0b458.pdf"
     ],
     "notes": "Personal comparison index for the verified 105 W Zephyrus profile; not a universal benchmark percentage."
+  },
+  {
+    "id": "cpu-core-ultra-9-275hx",
+    "type": "cpu",
+    "name": "Core Ultra 9 275HX",
+    "comparison_score": 96,
+    "confidence": "verified",
+    "as_of": "2026-08-15",
+    "sources": [
+      "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16IAX10H/Legion_Pro_5_16IAX10H_Spec.PDF",
+      "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_7_16IAX10/Legion_7_16IAX10_Spec.html"
+    ],
+    "notes": "Personal comparison index for the verified 24-core/24-thread Core Ultra 9 275HX; not a universal benchmark percentage."
   }
 ]

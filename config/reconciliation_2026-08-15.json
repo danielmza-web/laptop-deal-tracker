@@ -227,7 +227,7 @@
       "row": 37,
       "source_model": "Defiance 16 current chassis",
       "action": "updated",
-      "target_id": "pcspecialist-defiance16-unverified"
+      "target_id": "pcspecialist-defiance16-5070ti-target"
     },
     {
       "row": 38,
@@ -275,13 +275,13 @@
       "row": 45,
       "source_model": "Legion 7i Gen 10 previously considered",
       "action": "updated",
-      "target_id": "lenovo-legion-7i-gen10-unverified"
+      "target_id": "lenovo-legion-7i-83kycto1wwnl2"
     },
     {
       "row": 46,
       "source_model": "Legion Pro 5 Intel RTX 5070 Ti Dutch layout previously considered",
       "action": "updated",
-      "target_id": "lenovo-legion-pro5-intel-5070ti-nl-unverified"
+      "target_id": "lenovo-legion-pro5-83lu0057mh"
     },
     {
       "row": 47,

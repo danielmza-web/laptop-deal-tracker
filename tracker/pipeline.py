@@ -128,7 +128,10 @@ def run_pipeline(project_root: Path, output: Path, previous: Path | None = None,
                 "family_label": family["label"],
             }
     previous_laptops = read_json(previous / "laptops.json", []) if previous.exists() else []
+    retired_ids = set(read_json(project_root / "config" / "identity_migrations.json", {}).keys())
     for laptop in previous_laptops:
+        if laptop["id"] in retired_ids:
+            continue
         laptop_map.setdefault(laptop["id"], laptop)
     previous_offers = read_json(previous / "offers.json", []) if previous.exists() else []
     previous_offer_map = {offer["id"]: offer for offer in previous_offers}

@@ -77,7 +77,7 @@ ROW_IDS = {
     34: "hp-omen-16-ap0191ng",
     35: "pcspecialist-ionico-ii-16-config-2026-08",
     36: "pcspecialist-ionico-ii-16-config-2026-08",
-    37: "pcspecialist-defiance16-unverified",
+    37: "pcspecialist-defiance16-5070ti-target",
     38: "dell-pro-max-16-mc16250",
     39: "dell-pro-max-16-mc16250-4jwk2",
     40: "medion-erazer-defender17-p1-30039763a1",
@@ -85,8 +85,8 @@ ROW_IDS = {
     42: "gigabyte-gaming-a16-pro-dxhg4decc4sh",
     43: "tulpar-t6-v3-5-1",
     44: "captiva-highend-gaming-i95-052ge",
-    45: "lenovo-legion-7i-gen10-unverified",
-    46: "lenovo-legion-pro5-intel-5070ti-nl-unverified",
+    45: "lenovo-legion-7i-83kycto1wwnl2",
+    46: "lenovo-legion-pro5-83lu0057mh",
     47: "clevo-unresolved-previous-candidate",
 }
 

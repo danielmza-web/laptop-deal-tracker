@@ -21,6 +21,8 @@ Historical prices supplied in `config/laptops.json` are reference points only. T
 
 The reconciled master catalog contains 51 exact or research-stage records: the 47-row research set, derived current fixed variants, and later exact additions. The row-by-row result and post-research additions are in `config/reconciliation_2026-08-15.json`. Automatic catalog discoveries are stored separately and do not overwrite an exact configuration unless its identity and expected fingerprint match.
 
+The earlier 20-model shortlist is audited in `config/reconciliation_previous_shortlist_2026-08-15.json`. Every line is represented. Previously unresolved Legion references were resolved to exact SKUs `83LU0057MH` and `83KYCTO1WWNL2`; the GIGABYTE `DXHG4DECC4SH` record was completed; and PCSpecialist Defiance remains an explicit configurable target because it has no stable SKU. `config/identity_migrations.json` prevents the retired placeholder identities from returning through old generated data.
+
 The Laptops area opens in a concise **Models** view using explicit, reviewed family assignments from `config/families.json`. Expand a multi-variant model to see every exact SKU, or switch to **Variants** for the complete flat catalog. Filters apply before grouping, and desktop headers or the mobile sort controls can sort in either direction. Laptop Score descending is the default.
 
 To resume the project in another task or on another computer, start with [`CONTEXT.md`](CONTEXT.md). To submit a retailer link or screenshots for a new laptop, use [`CANDIDATE_INTAKE.md`](CANDIDATE_INTAKE.md); the same full submission prompt can be copied from the dashboard's Preferences area.

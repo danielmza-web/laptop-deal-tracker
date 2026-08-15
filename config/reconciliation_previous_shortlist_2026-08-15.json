@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-08-15",
+  "source_models": 20,
+  "result": "All 20 previously researched laptop lines are represented without adding duplicate master records.",
+  "entries": [
+    {"name": "XMG CORE 16 M25", "result": "already_present", "record_ids": ["xmg-core-16-m25-ai7-350-rtx5060", "xmg-core-16-m25-ai9-365-rtx5060", "xmg-core-16-m25-hx370-rtx5060", "xmg-core-16-m25-ai7-350-rtx5070", "xmg-core-16-m25-ai9-365-rtx5070", "xmg-core-16-m25-hx370-rtx5070", "xmg-core-16-m25-gamestar-xxl-ai7-350-rtx5060-de", "xmg-core-16-m25-gamestar-xxxl-ai7-350-rtx5070-de"]},
+    {"name": "TUXEDO InfinityBook Max 16 Gen10 AMD", "result": "already_present", "record_ids": ["tuxedo-infinitybook-max16-g10-ai7-350-rtx5060", "tuxedo-infinitybook-max16-g10-ai9-365-rtx5060", "tuxedo-infinitybook-max16-g10-hx370-rtx5060", "tuxedo-infinitybook-max16-g10-ai7-350-rtx5070", "tuxedo-infinitybook-max16-g10-ai9-365-rtx5070", "tuxedo-infinitybook-max16-g10-hx370-rtx5070"]},
+    {"name": "ASUS TUF Gaming A16", "result": "already_present", "record_ids": ["asus-tuf-a16-fa608um-rv136w", "asus-tuf-a16-fa608up-rv019w", "asus-tuf-a16-fa608up-rv124w"]},
+    {"name": "Acer Nitro 16S AI", "result": "already_present", "record_ids": ["acer-nitro-16s-nhqxteg002", "acer-nitro-16s-nhqxleg002", "acer-nitro-16s-nhu06eg002"]},
+    {"name": "GIGABYTE AERO X16", "result": "already_present", "record_ids": ["gigabyte-aero-x16-1vh93dec64ah", "gigabyte-aero-x16-1wh93dec64ah", "gigabyte-aero-x16-2wha3dec65ap"]},
+    {"name": "Lenovo Legion Pro 5 AMD", "result": "already_present", "record_ids": ["lenovo-legion-pro5-83lt000mus", "lenovo-legion-pro5-83lt001wpb", "lenovo-legion-pro5-83lt0009ge", "lenovo-legion-pro5-83lt004mge", "lenovo-legion-pro5-83lt004nge"]},
+    {"name": "Lenovo Legion Pro 5 Intel", "result": "resolved_exact_sku", "record_ids": ["lenovo-legion-pro5-83f3003hpb", "lenovo-legion-pro5-83lu0057mh"], "notes": "The former Dutch RTX 5070 Ti reference is now exact SKU 83LU0057MH."},
+    {"name": "ASUS ROG Strix G16", "result": "already_present", "record_ids": ["asus-rog-strix-g16-g614fr-s5214w"]},
+    {"name": "MSI Vector 16 HX AI", "result": "already_present", "record_ids": ["msi-vector-16-hx-ai-a2xwhg-074"]},
+    {"name": "ASUS ROG Zephyrus G16", "result": "already_present", "record_ids": ["asus-zephyrus-g16-ga605km-qr003w", "asus-zephyrus-g16-ga605kp-qr022w"]},
+    {"name": "GIGABYTE Gaming A16 Pro", "result": "completed_exact_sku", "record_ids": ["gigabyte-gaming-a16-pro-dxhg4decc4sh"], "notes": "Completed the exact German SKU while retaining Unknown for its unstated GPU TGP."},
+    {"name": "Lenovo Legion 7i Gen 10", "result": "resolved_exact_sku", "record_ids": ["lenovo-legion-7i-83kycto1wwnl2"], "notes": "The former unresolved reference is now Lenovo Netherlands configuration 83KYCTO1WWNL2."},
+    {"name": "XMG CORE 16 Value Edition", "result": "already_present", "record_ids": ["xmg-core-16-ve-m25"]},
+    {"name": "PCSpecialist Ionico II 16", "result": "already_present", "record_ids": ["pcspecialist-ionico-ii-16-config-2026-08"]},
+    {"name": "PCSpecialist Defiance 16", "result": "completed_configurable_target", "record_ids": ["pcspecialist-defiance16-5070ti-target"], "notes": "Kept as a configurable target because the page has no stable exact SKU."},
+    {"name": "ASUS V16", "result": "already_present", "record_ids": ["asus-v16-v3607vm", "asus-v16-v3607vp"]},
+    {"name": "Acer Nitro V 16S", "result": "already_present", "record_ids": ["acer-nitro-v16s-anv16s41-nhqzyeg002", "acer-nitro-v16s-anv16s61-nhqxpeg001"]},
+    {"name": "HP OMEN 16", "result": "already_present", "record_ids": ["hp-omen-16-ap0191ng", "hp-omen-16-ap0192ng"]},
+    {"name": "Tulpar T6", "result": "already_present", "record_ids": ["tulpar-t6-v3-5-1"]},
+    {"name": "CAPTIVA 16 Gaming", "result": "already_present", "record_ids": ["captiva-highend-gaming-i95-052ge"]}
+  ]
+}
