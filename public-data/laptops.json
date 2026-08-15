@@ -2034,11 +2034,11 @@
       "exact foreign keyboard legends must be checked"
     ],
     "research_value_snapshot": {
-      "value_score": 84,
-      "rating": "Good value",
-      "decision": "Strongly consider if international QWERTY and installing Windows are acceptable",
-      "price_eur": 1679.0,
-      "date": "2026-07-01"
+      "value_score": 79,
+      "rating": "Fair value",
+      "decision": "Wait unless the English keyboard and immediate availability are worth the premium",
+      "price_eur": 1669.0,
+      "date": "2026-08-15"
     },
     "configuration_fingerprint": {
       "cpu": "Core Ultra 7 255HX",
@@ -5155,7 +5155,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-fusion-16-m25-m25",
@@ -5194,7 +5194,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-focus-17-m25-m25",
@@ -5233,7 +5233,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-pro-16-ve-m25-m25",
@@ -5272,7 +5272,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-core-16-m25-m25",
@@ -5311,7 +5311,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-fusion-15-l25-l25",
@@ -5350,7 +5350,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-apex-17-m25-m25",
@@ -5389,7 +5389,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
@@ -5428,7 +5428,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-pro-16-m25-m25",
@@ -5467,7 +5467,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-neo-16-a25-gamestar-elite-s-a25",
@@ -5506,7 +5506,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   },
   {
     "id": "xmg-neo-16-e25-gamestar-titan-s-e25",
@@ -5545,6 +5545,6 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:49:22Z"
+    "last_seen": "2026-08-15T09:51:57Z"
   }
 ]
