@@ -1970,20 +1970,25 @@
         "price_eur": 1669
       }
     ],
-    "market_snapshot": null,
+    "market_snapshot": {
+      "date": "2026-08-15",
+      "price_eur": 1669,
+      "availability": "in_stock",
+      "label": "User-provided Galaxus screenshot"
+    },
     "target_prices": {
       "buy_now": 1500.0,
       "strong": 1600.0,
       "consider": 1700.0
     },
     "score_as_of": "2026-08-15",
-    "notes": "Historical Galaxus screenshot was 1669 euros with 2-3 units; screenshot file unavailable",
+    "notes": "Galaxus item 60905843 and the user-provided screenshot confirm the exact English-international, no-OS configuration at EUR 1669 on 2026-08-15. Current availability and price must still be rechecked before buying.",
     "id": "lenovo-legion-pro5-83f3003hpb",
     "brand": "Lenovo",
     "model": "Legion Pro 5 16IAX10",
     "sku": "83F3003HPB",
     "variant": "Core Ultra 7 255HX / RTX 5060 / OLED / 32 GB / 1 TB",
-    "status": "archived",
+    "status": "shortlist",
     "cpu": "Core Ultra 7 255HX",
     "cpu_family": "Intel Core Ultra HX",
     "gpu": "RTX 5060",
@@ -1993,18 +1998,20 @@
     "configuration_type": "fixed_sku",
     "os_status": "no_os",
     "source_urls": [
+      "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-16-1000-gb-32-gb-eng-int-intel-core-ultra-7-255hx-notebooks-60905843",
       "https://www.idealo.de/preisvergleich/OffersOfProduct/209564240_-legion-5-pro-16-83f3003hpb-lenovo.html",
       "https://psref.lenovo.com/"
     ],
     "verification": {
-      "as_of": "2026-07-01",
-      "confidence": "medium",
-      "score_confidence": "Medium",
+      "as_of": "2026-08-15",
+      "confidence": "verified",
+      "score_confidence": "High",
       "sources": [
+        "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-16-1000-gb-32-gb-eng-int-intel-core-ultra-7-255hx-notebooks-60905843",
         "https://www.idealo.de/preisvergleich/OffersOfProduct/209564240_-legion-5-pro-16-83f3003hpb-lenovo.html",
         "https://psref.lenovo.com/"
       ],
-      "notes": "Historical Galaxus screenshot was 1669 euros with 2-3 units; screenshot file unavailable"
+      "notes": "Exact SKU 83F3003HPB, Galaxus item 60905843, specifications, English-international keyboard, no OS, and screenshot price are matched. Price remains dated evidence until the tracker confirms the page live."
     },
     "criteria_scores": {
       "gpu": 76,
@@ -2019,7 +2026,7 @@
       "ports_misc": 85
     },
     "laptop_score": 87,
-    "score_confidence": "Medium",
+    "score_confidence": "High",
     "regret_flags": [
       "No OS",
       "Hello unknown",
@@ -4891,6 +4898,227 @@
     "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
   },
   {
+    "gpu_vram_gb": 8,
+    "gpu_tgp_w": 115,
+    "ram_gb": 32,
+    "ram_type": "DDR5-5200",
+    "ram_upgradeable": true,
+    "ssd_gb": 1000,
+    "second_m2": true,
+    "display_size_in": 16,
+    "resolution": "2560x1600",
+    "aspect_ratio": "16:10",
+    "refresh_rate_hz": 165,
+    "panel_type": "OLED glossy",
+    "brightness_nits": 500,
+    "weight_kg": 2.3,
+    "battery_wh": 80,
+    "numpad": true,
+    "keyboard_layout": "English-international QWERTY",
+    "windows_hello": false,
+    "usb_c_pd": true,
+    "thunderbolt": false,
+    "wifi": "Wi-Fi 7",
+    "os": "Windows 11 Home (English)",
+    "confidence": "high",
+    "historical_references": [],
+    "market_snapshot": {
+      "date": "2026-08-15",
+      "price_eur": 1709,
+      "availability": "unavailable",
+      "label": "User-provided Galaxus Germany screenshot"
+    },
+    "target_prices": {
+      "buy_now": 1550.0,
+      "strong": 1650.0,
+      "consider": 1750.0
+    },
+    "score_as_of": "2026-08-15",
+    "notes": "Exact English-international SKU confirmed from Galaxus. The EUR 1709 German screenshot showed the item out of stock, so it is dated evidence and not a current offer.",
+    "id": "lenovo-legion-pro5-83lt000mus",
+    "brand": "Lenovo",
+    "model": "Legion Pro 5 16ADR10",
+    "sku": "83LT000MUS",
+    "variant": "Ryzen 7 8745HX / RTX 5060 115 W / OLED / 32 GB / 1 TB / English QWERTY",
+    "status": "watchlist",
+    "cpu": "Ryzen 7 8745HX",
+    "cpu_family": "AMD Ryzen 8000 HX",
+    "gpu": "RTX 5060",
+    "sku_aliases": [
+      "83LT000MUS",
+      "Galaxus 68931979"
+    ],
+    "configuration_type": "fixed_sku",
+    "os_status": "windows_included",
+    "source_urls": [
+      "https://www.galaxus.ch/en/s1/product/lenovo-legion-pro-5-rtx-5060-16-1000-gb-32-gb-eng-int-amd-ryzen-7-8745hx-notebooks-68931979",
+      "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
+    ],
+    "verification": {
+      "as_of": "2026-08-15",
+      "confidence": "high",
+      "score_confidence": "High",
+      "sources": [
+        "https://www.galaxus.ch/en/s1/product/lenovo-legion-pro-5-rtx-5060-16-1000-gb-32-gb-eng-int-amd-ryzen-7-8745hx-notebooks-68931979",
+        "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
+      ],
+      "notes": "Manufacturer SKU 83LT000MUS, Windows, keyboard, RAM, SSD, display and chassis are matched. Lenovo PSREF confirms the 115 W RTX 5060 platform profile."
+    },
+    "criteria_scores": {
+      "gpu": 76,
+      "cpu": 75,
+      "memory_storage": 100,
+      "cooling_build": 92,
+      "keyboard": 100,
+      "display": 96,
+      "battery_usb_c": 85,
+      "portability": 74,
+      "windows_hello": 0,
+      "ports_misc": 85
+    },
+    "laptop_score": 84,
+    "score_confidence": "High",
+    "regret_flags": [
+      "Currently unavailable in the supplied German screenshot",
+      "No Windows Hello",
+      "Older, less efficient HX platform",
+      "OLED reflections and burn-in consideration"
+    ],
+    "research_value_snapshot": {
+      "value_score": null,
+      "rating": "Historical price only",
+      "decision": "Recheck if stock returns near EUR 1700",
+      "price_eur": 1709,
+      "date": "2026-08-15"
+    },
+    "configuration_fingerprint": {
+      "cpu": "Ryzen 7 8745HX",
+      "gpu": "RTX 5060",
+      "gpu_tgp_w": 115,
+      "ram_gb": 32,
+      "ssd_gb": 1000,
+      "keyboard_layout": "English-international QWERTY",
+      "os_status": "windows_included",
+      "configuration_type": "fixed_sku"
+    },
+    "cpu_component_id": "cpu-ryzen-7-8745hx",
+    "gpu_profile_id": "gpu-rtx-5060-8-gb-115-w"
+  },
+  {
+    "gpu_vram_gb": 8,
+    "gpu_tgp_w": 115,
+    "ram_gb": 32,
+    "ram_type": "DDR5-5200",
+    "ram_upgradeable": true,
+    "ssd_gb": 1000,
+    "second_m2": true,
+    "display_size_in": 16,
+    "resolution": "2560x1600",
+    "aspect_ratio": "16:10",
+    "refresh_rate_hz": 240,
+    "panel_type": "IPS anti-glare",
+    "brightness_nits": 500,
+    "weight_kg": 2.4,
+    "battery_wh": 80,
+    "numpad": true,
+    "keyboard_layout": "English-international QWERTY",
+    "windows_hello": false,
+    "usb_c_pd": true,
+    "thunderbolt": false,
+    "wifi": "Wi-Fi 7",
+    "os": "none",
+    "confidence": "high",
+    "historical_references": [
+      {
+        "date": "2026-08-15",
+        "price_eur": 2439,
+        "label": "Earlier search-index result superseded by direct live check"
+      }
+    ],
+    "market_snapshot": {
+      "date": "2026-08-15",
+      "price_eur": 1909,
+      "availability": "in_stock",
+      "label": "Verified direct Galaxus live check"
+    },
+    "target_prices": {
+      "buy_now": 1700.0,
+      "strong": 1850.0,
+      "consider": 2000.0
+    },
+    "score_as_of": "2026-08-15",
+    "notes": "Strong exact configuration. A direct live check found EUR 1909 in stock, replacing an older EUR 2439 search-index result. It ships without Windows, so the ready-to-use comparison adds the Windows allowance.",
+    "id": "lenovo-legion-pro5-83lt001wpb",
+    "brand": "Lenovo",
+    "model": "Legion Pro 5 16ADR10",
+    "sku": "83LT001WPB",
+    "variant": "Ryzen 9 8945HX / RTX 5070 115 W / IPS 240 Hz / 32 GB / 1 TB / English QWERTY",
+    "status": "watchlist",
+    "cpu": "Ryzen 9 8945HX",
+    "cpu_family": "AMD Ryzen 8000 HX",
+    "gpu": "RTX 5070",
+    "sku_aliases": [
+      "83LT001WPB",
+      "Galaxus 60402913"
+    ],
+    "configuration_type": "fixed_sku",
+    "os_status": "no_os",
+    "source_urls": [
+      "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-rtx-5070-16-1000-gb-32-gb-eng-int-amd-ryzen-9-8945hx-notebooks-60402913",
+      "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
+    ],
+    "verification": {
+      "as_of": "2026-08-15",
+      "confidence": "high",
+      "score_confidence": "High",
+      "sources": [
+        "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-rtx-5070-16-1000-gb-32-gb-eng-int-amd-ryzen-9-8945hx-notebooks-60402913",
+        "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_5_16ADR10/Legion_Pro_5_16ADR10_Spec.PDF"
+      ],
+      "notes": "Exact SKU 83LT001WPB is matched. Lenovo PSREF confirms Ryzen 9 8945HX support, RTX 5070 8 GB at 115 W, two SO-DIMM and two M.2 slots, 80 Wh battery, USB-C PD, 240 Hz IPS option, numpad and approximately 2.4 kg weight."
+    },
+    "criteria_scores": {
+      "gpu": 82,
+      "cpu": 82,
+      "memory_storage": 100,
+      "cooling_build": 92,
+      "keyboard": 100,
+      "display": 98,
+      "battery_usb_c": 85,
+      "portability": 65,
+      "windows_hello": 0,
+      "ports_misc": 85
+    },
+    "laptop_score": 86,
+    "score_confidence": "High",
+    "regret_flags": [
+      "Observed price is near the upper end of the target range",
+      "No operating system",
+      "No Windows Hello",
+      "2.4 kg plus a 245 W charger",
+      "Older, less efficient HX platform"
+    ],
+    "research_value_snapshot": {
+      "value_score": 83,
+      "rating": "Good value",
+      "decision": "Strongly consider after confirming final checkout price and no-OS setup",
+      "price_eur": 1909,
+      "date": "2026-08-15"
+    },
+    "configuration_fingerprint": {
+      "cpu": "Ryzen 9 8945HX",
+      "gpu": "RTX 5070",
+      "gpu_tgp_w": 115,
+      "ram_gb": 32,
+      "ssd_gb": 1000,
+      "keyboard_layout": "English-international QWERTY",
+      "os_status": "no_os",
+      "configuration_type": "fixed_sku"
+    },
+    "cpu_component_id": "cpu-ryzen-9-8945hx",
+    "gpu_profile_id": "gpu-rtx-5070-8-gb-115-w"
+  },
+  {
     "id": "xmg-core-15-m25-m25",
     "brand": "XMG",
     "model": "CORE 15 (M25)",
@@ -4927,7 +5155,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-fusion-16-m25-m25",
@@ -4966,7 +5194,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-focus-17-m25-m25",
@@ -5005,7 +5233,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-pro-16-ve-m25-m25",
@@ -5044,7 +5272,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-core-16-m25-m25",
@@ -5083,7 +5311,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-fusion-15-l25-l25",
@@ -5122,7 +5350,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-apex-17-m25-m25",
@@ -5161,7 +5389,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
@@ -5200,7 +5428,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-pro-16-m25-m25",
@@ -5239,7 +5467,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-neo-16-a25-gamestar-elite-s-a25",
@@ -5278,7 +5506,7 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   },
   {
     "id": "xmg-neo-16-e25-gamestar-titan-s-e25",
@@ -5317,6 +5545,6 @@
     "target_prices": {},
     "notes": "Automatically discovered from Bestware; specifications require verification.",
     "first_seen": "2026-08-15T09:20:49Z",
-    "last_seen": "2026-08-15T09:20:49Z"
+    "last_seen": "2026-08-15T09:49:22Z"
   }
 ]
