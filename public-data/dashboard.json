@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-16T07:18:07Z",
-  "mode": "discovery",
+  "generated_at": "2026-08-16T11:34:40Z",
+  "mode": "watchlist",
   "purchase_completed": null,
   "summary": {
     "major_deals": 0,
     "price_drops_24h": 0,
-    "new_models_24h": 11,
+    "new_models_24h": 0,
     "tracked_laptops": 62,
-    "active_offers": 35
+    "active_offers": 36
   },
   "preferences": {
     "budget": {
@@ -939,8 +939,8 @@
         "availability": "in_stock",
         "confidence": "high",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-16T05:43:56Z",
-        "last_checked": "2026-08-16T05:44:18Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:59Z",
         "missed_checks": 0,
         "raw_title": "MEDION® ERAZER Defender 17 P1 Core Gaming Laptop, Intel® Core™ i7 13620H, Ohne OS, 43,9 cm (17,3\") FHD Display mit 144 Hz, NVIDIA® GeForce RTX™ 5060, 1 TB SSD, 16 GB RAM",
         "notes": null
@@ -986,8 +986,8 @@
           "availability": "in_stock",
           "confidence": "high",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:44:18Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:59Z",
           "missed_checks": 0,
           "raw_title": "MEDION® ERAZER Defender 17 P1 Core Gaming Laptop, Intel® Core™ i7 13620H, Ohne OS, 43,9 cm (17,3\") FHD Display mit 144 Hz, NVIDIA® GeForce RTX™ 5060, 1 TB SSD, 16 GB RAM",
           "notes": null
@@ -1151,8 +1151,8 @@
         "availability": "in_stock",
         "confidence": "high",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-16T05:43:56Z",
-        "last_checked": "2026-08-16T05:43:57Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:41Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXL",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1194,8 +1194,8 @@
           "availability": "in_stock",
           "confidence": "high",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:43:57Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:41Z",
           "missed_checks": 0,
           "raw_title": "CORE 16 (M25) - GameStar XXL",
           "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1354,8 +1354,8 @@
         "availability": "in_stock",
         "confidence": "high",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-16T05:43:56Z",
-        "last_checked": "2026-08-16T05:44:02Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:46Z",
         "missed_checks": 0,
         "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
         "notes": null
@@ -1397,8 +1397,8 @@
           "availability": "in_stock",
           "confidence": "high",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:44:02Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:46Z",
           "missed_checks": 0,
           "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
           "notes": null
@@ -1557,8 +1557,8 @@
         "availability": "in_stock",
         "confidence": "high",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-16T05:43:56Z",
-        "last_checked": "2026-08-16T05:44:06Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:47Z",
         "missed_checks": 0,
         "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
         "notes": null
@@ -1600,8 +1600,8 @@
           "availability": "in_stock",
           "confidence": "high",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:44:06Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:47Z",
           "missed_checks": 0,
           "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
           "notes": null
@@ -1762,8 +1762,8 @@
         "availability": "in_stock",
         "confidence": "high",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-16T05:43:56Z",
-        "last_checked": "2026-08-16T05:43:59Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:42Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXXL",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1805,8 +1805,8 @@
           "availability": "in_stock",
           "confidence": "high",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:43:59Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:42Z",
           "missed_checks": 0,
           "raw_title": "CORE 16 (M25) - GameStar XXXL",
           "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1821,6 +1821,211 @@
       "comparison_to_xmg": [
         "Effective price comparison unavailable",
         "same resolution"
+      ]
+    },
+    {
+      "gpu_vram_gb": 8,
+      "gpu_tgp_w": 85,
+      "ram_gb": 32,
+      "ram_type": "DDR5",
+      "ram_upgradeable": true,
+      "ssd_gb": 1000,
+      "second_m2": null,
+      "display_size_in": 16,
+      "resolution": "1920x1200",
+      "aspect_ratio": "16:10",
+      "refresh_rate_hz": 180,
+      "panel_type": "IPS",
+      "brightness_nits": null,
+      "weight_kg": 2.1,
+      "battery_wh": null,
+      "numpad": null,
+      "keyboard_layout": "German-market layout, exact legends unconfirmed",
+      "windows_hello": null,
+      "usb_c_pd": null,
+      "thunderbolt": null,
+      "wifi": null,
+      "os": "Windows 11 Home",
+      "confidence": "high",
+      "historical_references": [],
+      "market_snapshot": {
+        "date": "2026-08-15",
+        "price_eur": 1649,
+        "label": "Acer Store list price"
+      },
+      "target_prices": {
+        "buy_now": 1150.0,
+        "strong": 1300.0,
+        "consider": 1400.0
+      },
+      "score_as_of": "2026-08-15",
+      "notes": "Do not import TGP or M.2 count from the Nitro 16S non-V family",
+      "id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
+      "brand": "Acer",
+      "model": "Nitro V 16S AI",
+      "sku": "NH.QZYEG.002",
+      "variant": "ANV16S-41 / Ryzen 7 260 / RTX 5060 / 32 GB / 1 TB",
+      "status": "watchlist",
+      "cpu": "Ryzen 7 260",
+      "cpu_family": "AMD Ryzen 200",
+      "gpu": "RTX 5060",
+      "sku_aliases": [
+        "WUXGA ANV16S-41-R50D",
+        "NH.QZYEG.002"
+      ],
+      "configuration_type": "fixed_sku",
+      "os_status": "windows_included",
+      "source_urls": [
+        "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+        "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf"
+      ],
+      "verification": {
+        "as_of": "2026-07-24",
+        "confidence": "low",
+        "score_confidence": "Low",
+        "sources": [
+          "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+          "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf"
+        ],
+        "notes": "Do not import TGP or M.2 count from the Nitro 16S non-V family"
+      },
+      "criteria_scores": {
+        "gpu": 60,
+        "cpu": 72,
+        "memory_storage": 75,
+        "cooling_build": 65,
+        "keyboard": 55,
+        "display": 72,
+        "battery_usb_c": 55,
+        "portability": 88,
+        "windows_hello": 0,
+        "ports_misc": 70
+      },
+      "laptop_score": 64,
+      "score_confidence": "Low",
+      "regret_flags": [
+        "TGP second M.2 numpad and USB-C charging unknown",
+        "no Hello"
+      ],
+      "research_value_snapshot": {
+        "value_score": 68,
+        "rating": "Poor value unless specifically needed",
+        "decision": "Skip",
+        "price_eur": 1649.0,
+        "date": "2026-07-24"
+      },
+      "configuration_fingerprint": {
+        "cpu": "Ryzen 7 260",
+        "gpu": "RTX 5060",
+        "gpu_tgp_w": 85,
+        "ram_gb": 32,
+        "ssd_gb": 1000,
+        "keyboard_layout": "German-market layout, exact legends unconfirmed",
+        "os_status": "windows_included",
+        "configuration_type": "fixed_sku"
+      },
+      "cpu_component_id": "cpu-ryzen-7-260",
+      "gpu_profile_id": "gpu-rtx-5060-8-gb-85-w",
+      "value_score": 59,
+      "value_rating": "POOR VALUE",
+      "decision": "SKIP",
+      "decision_reason": "The effective price does not compensate for this configuration's compromises.",
+      "best_offer": {
+        "id": "5f78ed38c465d999",
+        "source": "acer",
+        "seller": "Acer Store Germany",
+        "laptop_id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
+        "url": "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+        "source_id": "acer-nitro-v16s-nhqzyeg002",
+        "country": "DE",
+        "condition": "new",
+        "price": 1649.0,
+        "shipping": 0.0,
+        "total_price": 1649.0,
+        "currency": "EUR",
+        "original_price": null,
+        "os_status": "windows_included",
+        "ram_gb": 32,
+        "ssd_gb": 1000,
+        "configuration_match": "matched",
+        "price_breakdown": {
+          "listing_price": 1649.0,
+          "shipping": 0.0,
+          "windows": 0,
+          "ram": 0.0,
+          "ssd": 0.0,
+          "effective_price": 1649.0,
+          "os_status": "windows_included",
+          "upgrade_feasible": true,
+          "blockers": [],
+          "assumptions": []
+        },
+        "effective_price": 1649.0,
+        "value_score": 59,
+        "value_rating": "POOR VALUE",
+        "availability": "in_stock",
+        "confidence": "high",
+        "first_seen": "2026-08-16T11:34:40Z",
+        "last_seen": "2026-08-16T11:34:40Z",
+        "last_checked": "2026-08-16T11:34:54Z",
+        "missed_checks": 0,
+        "raw_title": "Acer Nitro V 16S AI Gaming-Notebook | ANV16S-41 | Schwarz",
+        "notes": null
+      },
+      "offers": [
+        {
+          "id": "5f78ed38c465d999",
+          "source": "acer",
+          "seller": "Acer Store Germany",
+          "laptop_id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
+          "url": "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+          "source_id": "acer-nitro-v16s-nhqzyeg002",
+          "country": "DE",
+          "condition": "new",
+          "price": 1649.0,
+          "shipping": 0.0,
+          "total_price": 1649.0,
+          "currency": "EUR",
+          "original_price": null,
+          "os_status": "windows_included",
+          "ram_gb": 32,
+          "ssd_gb": 1000,
+          "configuration_match": "matched",
+          "price_breakdown": {
+            "listing_price": 1649.0,
+            "shipping": 0.0,
+            "windows": 0,
+            "ram": 0.0,
+            "ssd": 0.0,
+            "effective_price": 1649.0,
+            "os_status": "windows_included",
+            "upgrade_feasible": true,
+            "blockers": [],
+            "assumptions": []
+          },
+          "effective_price": 1649.0,
+          "value_score": 59,
+          "value_rating": "POOR VALUE",
+          "availability": "in_stock",
+          "confidence": "high",
+          "first_seen": "2026-08-16T11:34:40Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:54Z",
+          "missed_checks": 0,
+          "raw_title": "Acer Nitro V 16S AI Gaming-Notebook | ANV16S-41 | Schwarz",
+          "notes": null
+        }
+      ],
+      "history": {
+        "lowest": 1649.0,
+        "highest": 1649.0,
+        "average": 1649.0,
+        "observations": 1
+      },
+      "comparison_to_xmg": [
+        "Effective price comparison unavailable",
+        "30W lower GPU power",
+        "different resolution"
       ]
     },
     {
@@ -6592,8 +6797,8 @@
           "availability": "unknown",
           "confidence": "low",
           "first_seen": "2026-08-15T09:20:49Z",
-          "last_seen": "2026-08-16T05:43:56Z",
-          "last_checked": "2026-08-16T05:44:14Z",
+          "last_seen": "2026-08-16T11:34:40Z",
+          "last_checked": "2026-08-16T11:34:56Z",
           "missed_checks": 0,
           "raw_title": "OMEN Gaming Laptop 16-ap0192ng (C2AQ2EA)",
           "notes": null
@@ -7094,127 +7299,6 @@
       "comparison_to_xmg": [
         "Effective price comparison unavailable",
         "0.15kg lighter weight",
-        "different resolution"
-      ]
-    },
-    {
-      "gpu_vram_gb": 8,
-      "gpu_tgp_w": 85,
-      "ram_gb": 32,
-      "ram_type": "DDR5",
-      "ram_upgradeable": true,
-      "ssd_gb": 1000,
-      "second_m2": null,
-      "display_size_in": 16,
-      "resolution": "1920x1200",
-      "aspect_ratio": "16:10",
-      "refresh_rate_hz": 180,
-      "panel_type": "IPS",
-      "brightness_nits": null,
-      "weight_kg": 2.1,
-      "battery_wh": null,
-      "numpad": null,
-      "keyboard_layout": "German-market layout, exact legends unconfirmed",
-      "windows_hello": null,
-      "usb_c_pd": null,
-      "thunderbolt": null,
-      "wifi": null,
-      "os": "Windows 11 Home",
-      "confidence": "high",
-      "historical_references": [],
-      "market_snapshot": {
-        "date": "2026-08-15",
-        "price_eur": 1649,
-        "label": "Acer Store list price"
-      },
-      "target_prices": {
-        "buy_now": 1150.0,
-        "strong": 1300.0,
-        "consider": 1400.0
-      },
-      "score_as_of": "2026-08-15",
-      "notes": "Do not import TGP or M.2 count from the Nitro 16S non-V family",
-      "id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
-      "brand": "Acer",
-      "model": "Nitro V 16S AI",
-      "sku": "NH.QZYEG.002",
-      "variant": "ANV16S-41 / Ryzen 7 260 / RTX 5060 / 32 GB / 1 TB",
-      "status": "watchlist",
-      "cpu": "Ryzen 7 260",
-      "cpu_family": "AMD Ryzen 200",
-      "gpu": "RTX 5060",
-      "sku_aliases": [
-        "WUXGA ANV16S-41-R50D",
-        "NH.QZYEG.002"
-      ],
-      "configuration_type": "fixed_sku",
-      "os_status": "windows_included",
-      "source_urls": [
-        "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
-        "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf"
-      ],
-      "verification": {
-        "as_of": "2026-07-24",
-        "confidence": "low",
-        "score_confidence": "Low",
-        "sources": [
-          "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
-          "https://gzhls.at/blob/ldb/7/d/b/0/8b08e56026d6d48de7eed30be96a049215d0.pdf"
-        ],
-        "notes": "Do not import TGP or M.2 count from the Nitro 16S non-V family"
-      },
-      "criteria_scores": {
-        "gpu": 60,
-        "cpu": 72,
-        "memory_storage": 75,
-        "cooling_build": 65,
-        "keyboard": 55,
-        "display": 72,
-        "battery_usb_c": 55,
-        "portability": 88,
-        "windows_hello": 0,
-        "ports_misc": 70
-      },
-      "laptop_score": 64,
-      "score_confidence": "Low",
-      "regret_flags": [
-        "TGP second M.2 numpad and USB-C charging unknown",
-        "no Hello"
-      ],
-      "research_value_snapshot": {
-        "value_score": 68,
-        "rating": "Poor value unless specifically needed",
-        "decision": "Skip",
-        "price_eur": 1649.0,
-        "date": "2026-07-24"
-      },
-      "configuration_fingerprint": {
-        "cpu": "Ryzen 7 260",
-        "gpu": "RTX 5060",
-        "gpu_tgp_w": 85,
-        "ram_gb": 32,
-        "ssd_gb": 1000,
-        "keyboard_layout": "German-market layout, exact legends unconfirmed",
-        "os_status": "windows_included",
-        "configuration_type": "fixed_sku"
-      },
-      "cpu_component_id": "cpu-ryzen-7-260",
-      "gpu_profile_id": "gpu-rtx-5060-8-gb-85-w",
-      "value_score": null,
-      "value_rating": "UNRATED",
-      "decision": "UNRATED",
-      "decision_reason": "No current price is attached to a reliably identified configuration.",
-      "best_offer": null,
-      "offers": [],
-      "history": {
-        "lowest": null,
-        "highest": null,
-        "average": null,
-        "observations": 0
-      },
-      "comparison_to_xmg": [
-        "Effective price comparison unavailable",
-        "30W lower GPU power",
         "different resolution"
       ]
     },
@@ -9821,332 +9905,213 @@
   ],
   "source_health": [
     {
-      "id": "bestware-xmg-catalog",
+      "id": "bestware-xmg-core16-configurator",
       "source": "bestware",
-      "url": "https://bestware.com/en/gaming-laptops",
-      "status": "ok",
-      "last_attempt": "2026-08-16T07:18:07Z",
-      "last_success": "2026-08-16T07:18:07Z",
-      "error": null,
-      "offers_found": 29,
+      "url": "https://bestware.com/de/xmg-core-16-m25.html",
+      "status": "configuration_required",
+      "last_attempt": "2026-08-16T11:34:40Z",
+      "last_success": "2026-08-16T11:34:40Z",
+      "error": "A saved exact configuration is required before this starting price can be compared.",
+      "offers_found": 0,
       "cooldown_until": null
+    },
+    {
+      "id": "bestware-xmg-core16-ai9-5060-prebuild",
+      "source": "bestware",
+      "url": "https://bestware.com/de/xmg-core-16-m25-gamestar-xxl.html",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:41Z",
+      "last_success": "2026-08-16T11:34:41Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "bestware-xmg-core16-ai9-5070-prebuild",
+      "source": "bestware",
+      "url": "https://bestware.com/de/xmg-core-16-m25-gamestar-xxxl.html",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:42Z",
+      "last_success": "2026-08-16T11:34:42Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "tuxedo-infinitybook-max16-configurator",
+      "source": "tuxedo",
+      "url": "https://www.tuxedocomputers.com/de/TUXEDO-InfinityBook-Max-16-Gen10-AMD",
+      "status": "configuration_required",
+      "last_attempt": "2026-08-16T11:34:44Z",
+      "last_success": "2026-08-16T11:34:44Z",
+      "error": "A saved exact configuration is required before this starting price can be compared.",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "cyberport-aero-x16-1wh",
+      "source": "cyberport",
+      "url": "https://www.cyberport.de/en/notebook-und-tablet/notebooks/gigabyte/pdp/1c37-07p/gigabyte-aero-x16-1wh-gaming-laptop-16-qhd-165-hz-ryzen-ai-7-350-32gb-1tb-ssd-rtx5070-win11.html",
+      "status": "cooldown",
+      "last_attempt": "2026-08-16T11:34:45Z",
+      "last_success": null,
+      "error": "HTTP 403; retries paused",
+      "offers_found": 0,
+      "cooldown_until": "2026-08-17T11:34:45Z"
+    },
+    {
+      "id": "asus-tuf-a16-rv019w",
+      "source": "asus",
+      "url": "https://estore.asus.com/de/90nr0kt1-m001x0-asus-tuf-gaming-a16-2025.html",
+      "status": "cooldown",
+      "last_attempt": "2026-08-16T11:34:45Z",
+      "last_success": null,
+      "error": "HTTP 403; retries paused",
+      "offers_found": 0,
+      "cooldown_until": "2026-08-17T11:34:46Z"
+    },
+    {
+      "id": "lenovo-legion-pro5-83lt004nge",
+      "source": "lenovo",
+      "url": "https://www.lenovo.com/de/de/p/83LT004NGE",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:46Z",
+      "last_success": "2026-08-16T11:34:46Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "lenovo-legion-pro5-83lt004mge",
+      "source": "lenovo",
+      "url": "https://www.lenovo.com/de/de/p/laptops/legion-laptops/legion-5-series/legion-pro-5-gen-10-16-inch-amd/83lt004mge/",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:47Z",
+      "last_success": "2026-08-16T11:34:47Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "asus-v16-reference",
+      "source": "asus",
+      "url": "https://www.asus.com/de/laptops/for-gaming/all-series/asus-v16-v3607/where-to-buy/",
+      "status": "configuration_changed",
+      "last_attempt": "2026-08-16T11:34:48Z",
+      "last_success": null,
+      "error": "Expected configuration not confirmed: Core 7 240H",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "acer-nitro-v16s-nhqzyeg002",
+      "source": "acer",
+      "url": "https://store.acer.com/de-de/acer-nitro-v-16s-ai-gaming-notebook-anv16s-41-schwarz",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:54Z",
+      "last_success": "2026-08-16T11:34:54Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "asus-strix-g16-g614fr",
+      "source": "asus",
+      "url": "https://estore.asus.com/de/90nr0nk8-m00b60-rog-strix-g16-2025-g614.html",
+      "status": "cooldown",
+      "last_attempt": "2026-08-16T11:34:55Z",
+      "last_success": null,
+      "error": "HTTP 403; retries paused",
+      "offers_found": 0,
+      "cooldown_until": "2026-08-17T11:34:55Z"
+    },
+    {
+      "id": "msi-vector-a2xwhg-074",
+      "source": "msi",
+      "url": "https://de-store.msi.com/products/msi-laptop-vector-16-hx-ai-a2xwhg",
+      "status": "configuration_changed",
+      "last_attempt": "2026-08-16T11:34:55Z",
+      "last_success": null,
+      "error": "Expected configuration not confirmed: Core Ultra 7 255HX",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "hp-omen-16-ap0192ng",
+      "source": "hp",
+      "url": "https://www.hp.com/at-de/products/laptops/product-details/2103234909",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:56Z",
+      "last_success": "2026-08-16T11:34:56Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "pcspecialist-ionico-ii-16",
+      "source": "pcspecialist",
+      "url": "https://www.pcspecialist.de/notebooks/ionico-ii-16/",
+      "status": "configuration_changed",
+      "last_attempt": "2026-08-16T11:34:57Z",
+      "last_success": null,
+      "error": "Expected configuration not confirmed: Core Ultra 7 255HX",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "medion-defender17-30039763a1",
+      "source": "medion",
+      "url": "https://www.medion.com/de/shop/p/core-gaming-notebooks-medion-erazer-defender-17-p1-core-gaming-laptop-intel-core-i7-13620h-ohne-os-43-9-cm-17-3--fhd-display-mit-144-hz-nvidia-geforce-rtx-5060-1-tb-ssd-16-gb-ram-30039763A1",
+      "status": "ok",
+      "last_attempt": "2026-08-16T11:34:59Z",
+      "last_success": "2026-08-16T11:34:59Z",
+      "error": null,
+      "offers_found": 1,
+      "cooldown_until": null
+    },
+    {
+      "id": "galaxus-legion-pro5-83f3003hpb",
+      "source": "galaxus",
+      "url": "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-16-1000-gb-32-gb-eng-int-intel-core-ultra-7-255hx-notebooks-60905843",
+      "status": "configuration_unidentified",
+      "last_attempt": "2026-08-16T11:35:01Z",
+      "last_success": null,
+      "error": "Expected configuration not confirmed: SKU 83F3003HPB, Core Ultra 7 255HX, RTX 5060, 32 GB RAM, 1 TB SSD",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "galaxus-legion-pro5-83lt001wpb",
+      "source": "galaxus",
+      "url": "https://www.galaxus.de/en/s1/product/lenovo-legion-pro-5-rtx-5070-16-1000-gb-32-gb-eng-int-amd-ryzen-9-8945hx-notebooks-60402913",
+      "status": "configuration_unidentified",
+      "last_attempt": "2026-08-16T11:35:01Z",
+      "last_success": null,
+      "error": "Expected configuration not confirmed: SKU 83LT001WPB, Ryzen 9 8945HX, RTX 5070, 32 GB RAM, 1 TB SSD",
+      "offers_found": 0,
+      "cooldown_until": null
+    },
+    {
+      "id": "asus-zephyrus-ga605kp-qr022w",
+      "source": "asus",
+      "url": "https://estore.asus.com/de/90nr0nc1-m00120-rog-zephyrus-g16-2025-ga605.html",
+      "status": "cooldown",
+      "last_attempt": "2026-08-16T11:35:02Z",
+      "last_success": null,
+      "error": "HTTP 403; retries paused",
+      "offers_found": 0,
+      "cooldown_until": "2026-08-16T15:24:42Z"
     }
   ],
   "recent_events": [
     {
-      "offer_id": "dba2193149fae719",
-      "laptop_id": "hp-omen-16-ap0192ng",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": null,
+      "offer_id": "5f78ed38c465d999",
+      "laptop_id": "acer-nitro-v16s-anv16s41-nhqzyeg002",
+      "timestamp": "2026-08-16T11:34:40Z",
+      "price": 1649.0,
       "shipping": 0.0,
-      "total_price": null,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "fb26d4bb44a22d2d",
-      "laptop_id": "lenovo-legion-pro5-83lt004mge",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 1899.0,
-      "shipping": 0.0,
-      "total_price": 1899.0,
+      "total_price": 1649.0,
       "availability": "in_stock"
-    },
-    {
-      "offer_id": "d84e9a2cbbd54e3b",
-      "laptop_id": "lenovo-legion-pro5-83lt004nge",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2099.01,
-      "shipping": 0.0,
-      "total_price": 2099.01,
-      "availability": "in_stock"
-    },
-    {
-      "offer_id": "eded66d0347b3176",
-      "laptop_id": "medion-erazer-defender17-p1-30039763a1",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 1249.95,
-      "shipping": 0.0,
-      "total_price": 1249.95,
-      "availability": "in_stock"
-    },
-    {
-      "offer_id": "4953ccdd0041293f",
-      "laptop_id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2679.0,
-      "shipping": 0.0,
-      "total_price": 2679.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "7a4b91ff3295eaf1",
-      "laptop_id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2750.0,
-      "shipping": 0.0,
-      "total_price": 2750.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "be93ca0c19ca4f50",
-      "laptop_id": "xmg-apex-16-max-m25-gamestar-ultimate-ryzen-5070-ti-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2949.0,
-      "shipping": 0.0,
-      "total_price": 2949.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "bb71728f89594c17",
-      "laptop_id": "xmg-apex-17-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2249.0,
-      "shipping": 0.0,
-      "total_price": 2249.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "0d98495c8455a5a2",
-      "laptop_id": "xmg-core-15-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2149.0,
-      "shipping": 0.0,
-      "total_price": 2149.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "6b0925a7583c9d43",
-      "laptop_id": "xmg-core-15-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2349.0,
-      "shipping": 0.0,
-      "total_price": 2349.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "f8e959f6904a7ade",
-      "laptop_id": "xmg-core-15-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2449.0,
-      "shipping": 0.0,
-      "total_price": 2449.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "5e25c1d80fdd45c2",
-      "laptop_id": "xmg-core-16-m25-gamestar-xxl-ai7-350-rtx5060-de",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2099.0,
-      "shipping": 0.0,
-      "total_price": 2099.0,
-      "availability": "in_stock"
-    },
-    {
-      "offer_id": "d0fa8ffea1f74835",
-      "laptop_id": "xmg-core-16-m25-gamestar-xxxl-ai7-350-rtx5070-de",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2249.0,
-      "shipping": 0.0,
-      "total_price": 2249.0,
-      "availability": "in_stock"
-    },
-    {
-      "offer_id": "1048a8a3890baf99",
-      "laptop_id": "xmg-core-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2249.0,
-      "shipping": 0.0,
-      "total_price": 2249.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "129fc2a94852cec9",
-      "laptop_id": "xmg-core-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2099.0,
-      "shipping": 0.0,
-      "total_price": 2099.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "60f0b259140c49bc",
-      "laptop_id": "xmg-core-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2248.0,
-      "shipping": 0.0,
-      "total_price": 2248.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "ab28dd3cf4dfad4b",
-      "laptop_id": "xmg-core-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2449.0,
-      "shipping": 0.0,
-      "total_price": 2449.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "c43183c6877d5b2b",
-      "laptop_id": "xmg-core-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2149.0,
-      "shipping": 0.0,
-      "total_price": 2149.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "478139e6a4eb5c59",
-      "laptop_id": "xmg-focus-17-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2679.0,
-      "shipping": 0.0,
-      "total_price": 2679.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "ac3416fe0778d918",
-      "laptop_id": "xmg-focus-17-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2499.0,
-      "shipping": 0.0,
-      "total_price": 2499.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "c85e83759ddaddd3",
-      "laptop_id": "xmg-focus-17-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2379.0,
-      "shipping": 0.0,
-      "total_price": 2379.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "a63644a767646f5e",
-      "laptop_id": "xmg-fusion-15-l25-l25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2099.0,
-      "shipping": 0.0,
-      "total_price": 2099.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "b07ee17cacdca6d3",
-      "laptop_id": "xmg-fusion-15-l25-l25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2279.0,
-      "shipping": 0.0,
-      "total_price": 2279.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "846de4a328c1fb11",
-      "laptop_id": "xmg-fusion-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2707.0,
-      "shipping": 0.0,
-      "total_price": 2707.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "a404d8d25fd41a2e",
-      "laptop_id": "xmg-fusion-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2649.0,
-      "shipping": 0.0,
-      "total_price": 2649.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "ee41b55cb1a5d9be",
-      "laptop_id": "xmg-fusion-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2399.0,
-      "shipping": 0.0,
-      "total_price": 2399.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "f3e577973b8cd8c6",
-      "laptop_id": "xmg-fusion-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2799.0,
-      "shipping": 0.0,
-      "total_price": 2799.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "03a50d77b142e4c0",
-      "laptop_id": "xmg-neo-16-a25-gamestar-elite-s-a25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 3099.0,
-      "shipping": 0.0,
-      "total_price": 3099.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "c9c1ad7c77066d5a",
-      "laptop_id": "xmg-neo-16-a25-gamestar-elite-s-a25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 3149.0,
-      "shipping": 0.0,
-      "total_price": 3149.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "70078b3f9e0d0d5a",
-      "laptop_id": "xmg-neo-16-e25-gamestar-titan-s-e25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 3179.0,
-      "shipping": 0.0,
-      "total_price": 3179.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "29052c71ac077221",
-      "laptop_id": "xmg-pro-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2699.0,
-      "shipping": 0.0,
-      "total_price": 2699.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "2eebfb6395fc559b",
-      "laptop_id": "xmg-pro-16-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2999.0,
-      "shipping": 0.0,
-      "total_price": 2999.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "5678c22a314cd887",
-      "laptop_id": "xmg-pro-16-ve-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2729.0,
-      "shipping": 0.0,
-      "total_price": 2729.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "5cb103b11a27f9bf",
-      "laptop_id": "xmg-pro-16-ve-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2802.0,
-      "shipping": 0.0,
-      "total_price": 2802.0,
-      "availability": "unknown"
-    },
-    {
-      "offer_id": "efb353344125672a",
-      "laptop_id": "xmg-pro-16-ve-m25-m25",
-      "timestamp": "2026-08-15T09:20:49Z",
-      "price": 2099.0,
-      "shipping": 0.0,
-      "total_price": 2099.0,
-      "availability": "unknown"
     }
   ]
 }
