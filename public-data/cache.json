@@ -282,7 +282,7 @@
     "last_error": null
   },
   "bestware-xmg-catalog": {
-    "etag": "W/\"page_cache:88174494045:CollectionDetailsController:c9a7a88e27395f98f602971de3a13741\"",
+    "etag": "W/\"page_cache:88174494045:CollectionDetailsController:1ff2eface74c200bc5b9bb75e099a9a2\"",
     "last_modified": null,
     "offers": [
       {
@@ -311,7 +311,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 15 (M25) 15.3\" IPS | 1600p | 300 Hz | 500 nits NVIDIA GeForce RTX 5070 | 8 GB AMD Ryzen AI 9 HX 370 | 12 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -342,7 +342,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 16 (M25) 16\" OLED | 120 Hz | 400 Nits NVIDIA GeForce RTX 5070 | 8 GB Intel Core Ultra 9 275HX | 24 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -373,7 +373,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FOCUS 17 (M25) 17.3\" IPS | 240 Hz | 300 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 96 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -404,7 +404,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "PRO 16 VE (M25) 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 96 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -435,7 +435,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB AMD Ryzen AI 9 HX 370 | 12 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -466,7 +466,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 15 (L25) 15.3\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB Intel Core Ultra 7 255H | 16 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -497,7 +497,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "APEX 17 (M25) 17.3\" IPS | 240 Hz | 300 Nits NVIDIA GeForce RTX 5070 | 12 GB AMD Ryzen 9 9955HX | 16 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -528,7 +528,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXL Upgrade Edition 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB AMD Ryzen AI 9 HX 370 | 12 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -559,7 +559,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FOCUS 17 (M25) 17.3\" IPS | 240 Hz | 300 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 16 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -590,7 +590,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 15 (M25) 15.3\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5060 | 8 GB AMD Ryzen AI 9 HX 370 | 12 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -621,7 +621,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 16 (M25) - GameStar Max 5070 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB Intel Core Ultra 9 275HX | 24 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -652,7 +652,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "APEX 16 MAX (M25) - GameStar Ultimate Ryzen 5070 Ti 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB AMD Ryzen 9 8945HX | 16 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -683,7 +683,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "PRO 16 VE (M25) - GameStar Max 5070 Ti 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -714,7 +714,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "PRO 16 (M25) 16\" Mini-LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core Ultra 9 275HX | 24 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -745,7 +745,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FOCUS 17 (M25) 17.3\" IPS | 240 Hz | 300 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -776,7 +776,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 16 (M25) - GameStar Max 5070 Upgrade Edition 16\" OLED | 120 Hz | 400 Nits NVIDIA GeForce RTX 5070 | 8 GB Intel Core Ultra 9 275HX | 24 Cores 128 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -807,7 +807,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "APEX 16 MAX (M25) - GameStar Ulti Upgrade Edition 16\" Mini-LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB AMD Ryzen 9 9955HX | 16 Cores 96 GB DDR5 RAM | 16 TB",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -838,7 +838,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 16 (M25) 16\" OLED | 120 Hz | 400 Nits NVIDIA GeForce RTX 5070 | 8 GB Intel Core Ultra 9 275HX | 24 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -869,7 +869,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "PRO 16 VE (M25) - GameStar Max Upgrade Edition 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core i9-14900HX | 24 Cores 96 GB DDR5 RAM | 16 TB SSD",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -900,7 +900,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "APEX 16 MAX (M25) 16\" Mini-LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB AMD Ryzen 9 9955HX | 16 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -931,7 +931,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "PRO 16 (M25) 16\" Mini-LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core Ultra 9 275HX | 24 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -962,7 +962,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "NEO 16 (A25) - GameStar ELITE S 16\" Mini LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB AMD Ryzen 9 9955HX | 16 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -993,7 +993,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "NEO 16 (A25) 16\" Mini-LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB AMD Ryzen 9 9955HX3D | 16 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1024,7 +1024,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "NEO 16 (E25) - GameStar TITAN S 16\" Mini LED | 300 Hz | 1000 Nits NVIDIA GeForce RTX 5070 Ti | 12 GB Intel Core Ultra 9 275HX | 24 Cores 32 GB RAM | 2 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1055,7 +1055,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 15 (M25) 15,3\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB AMD Ryzen AI 7 350 | 8 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1086,7 +1086,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "FUSION 15 (L25) 15.3\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5060 | 8 GB Intel Core Ultra 7 255H | 16 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1117,7 +1117,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5060 | 8 GB AMD Ryzen AI 9 HX 370 | 12 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1148,7 +1148,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXL 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5060 | 8 GB AMD Ryzen AI 7 350 | 8 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1179,7 +1179,7 @@
         "confidence": "medium",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-15T19:01:46Z",
+        "last_checked": "2026-08-16T07:18:07Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXXL 16\" IPS | 300 Hz | 500 Nits NVIDIA GeForce RTX 5070 | 8 GB AMD Ryzen AI 7 350 | 8 Cores 32 GB RAM | 1 TB SSD | German Layout",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
@@ -1223,7 +1223,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-fusion-16-m25-m25",
@@ -1262,7 +1262,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-focus-17-m25-m25",
@@ -1301,7 +1301,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-pro-16-ve-m25-m25",
@@ -1340,7 +1340,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-16-m25-m25",
@@ -1379,7 +1379,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-fusion-15-l25-l25",
@@ -1418,7 +1418,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-apex-17-m25-m25",
@@ -1457,7 +1457,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-16-m25-gamestar-xxl-upgrade-edition-m25",
@@ -1533,7 +1533,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-15-m25-m25",
@@ -1572,7 +1572,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-fusion-16-m25-gamestar-max-5070-m25",
@@ -1648,7 +1648,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-pro-16-ve-m25-gamestar-max-5070-ti-m25",
@@ -1724,7 +1724,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-focus-17-m25-m25",
@@ -1763,7 +1763,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-fusion-16-m25-gamestar-max-5070-upgrade-edition-m25",
@@ -1876,7 +1876,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-pro-16-ve-m25-gamestar-max-upgrade-edition-m25",
@@ -1989,7 +1989,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-neo-16-a25-gamestar-elite-s-a25",
@@ -2028,7 +2028,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-neo-16-a25-a25",
@@ -2104,7 +2104,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-15-m25-m25",
@@ -2143,7 +2143,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-fusion-15-l25-l25",
@@ -2182,7 +2182,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-16-m25-m25",
@@ -2221,7 +2221,7 @@
         "target_prices": {},
         "notes": "Automatically discovered from Bestware; specifications require verification.",
         "first_seen": "2026-08-15T09:20:49Z",
-        "last_seen": "2026-08-15T19:01:46Z"
+        "last_seen": "2026-08-16T07:18:07Z"
       },
       {
         "id": "xmg-core-16-m25-gamestar-xxl-m25",
@@ -2298,7 +2298,7 @@
         "notes": "Automatically discovered from Bestware; specifications require verification."
       }
     ],
-    "last_success": "2026-08-15T19:01:46Z",
+    "last_success": "2026-08-16T07:18:07Z",
     "cooldown_until": null,
     "last_error": null
   },
