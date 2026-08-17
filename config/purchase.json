@@ -21,7 +21,9 @@
   },
   "pricing": {
     "original_configured_price": 2393.0,
+    "original_checkout_total_with_shipping": 2397.9,
     "campaign_discount_percent": 20,
+    "campaign_discount": 478.6,
     "price_after_campaign_discount": 1914.4,
     "additional_product_discounts": 48.71,
     "shipping": 4.9,
@@ -29,13 +31,13 @@
     "final_price": 1865.69,
     "vat_rate_percent": 19,
     "vat_included": 297.88,
-    "total_savings": 527.31,
-    "effective_discount_percent": 22.04
+    "total_savings": 532.21,
+    "effective_discount_percent": 22.2
   },
   "evidence": {
     "type": "order_summary_screenshot",
     "provided_by": "buyer",
     "recorded_on": "2026-08-17",
-    "notes": "The original configured price is reconstructed from the displayed EUR 1,914.40 price after the buyer-confirmed 20% campaign discount. The remaining EUR 48.71 product discounts and free-shipping offset are displayed explicitly in the order summary."
+    "notes": "The confirmed order summary shows an original configured price of EUR 2,393.00, a 20% campaign discount of EUR 478.60, EUR 48.71 in additional product discounts, and EUR 4.90 saved through free shipping. The public archive deliberately excludes the order number and coupon codes."
   }
 }

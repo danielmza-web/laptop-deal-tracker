@@ -4,7 +4,7 @@ Laptop Deal Tracker is a temporary, personal buying dashboard for finding a lapt
 
 The project completed its purpose on 2026-08-17 and is now a read-only purchase archive. The final choice was an XMG CORE 16 (M25) with Ryzen AI 7 350, RTX 5060, 32 GB RAM, 2 TB SSD, US International keyboard, and Windows 11 Home for EUR 1,865.69 including VAT.
 
-The complete configuration and discount record is stored in `config/purchase.json`. Scheduled tracking is disabled; the final dashboard and price history remain available for reference.
+The complete configuration and discount record is stored in `config/purchase.json`: EUR 532.21 total savings, or approximately 22.2% compared with the original checkout total including shipping. The public archive deliberately excludes the order number and coupon codes. Scheduled tracking is disabled; the final dashboard and price history remain available for reference.
 
 ## What it does
 

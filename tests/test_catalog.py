@@ -37,8 +37,11 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(purchase["configuration"]["keyboard"], "US International (ISO)")
         pricing = purchase["pricing"]
         self.assertAlmostEqual(pricing["original_configured_price"] * 0.8, pricing["price_after_campaign_discount"], places=2)
+        self.assertAlmostEqual(pricing["original_configured_price"] * 0.2, pricing["campaign_discount"], places=2)
         self.assertAlmostEqual(pricing["price_after_campaign_discount"] - pricing["additional_product_discounts"] + pricing["shipping"] - pricing["shipping_discount"], purchase["price"], places=2)
-        self.assertAlmostEqual(pricing["original_configured_price"] - purchase["price"], pricing["total_savings"], places=2)
+        self.assertAlmostEqual(pricing["original_configured_price"] + pricing["shipping"], pricing["original_checkout_total_with_shipping"], places=2)
+        self.assertAlmostEqual(pricing["campaign_discount"] + pricing["additional_product_discounts"] + pricing["shipping_discount"], pricing["total_savings"], places=2)
+        self.assertAlmostEqual(pricing["original_checkout_total_with_shipping"] - purchase["price"], pricing["total_savings"], places=2)
 
     def test_explicit_families_are_safe_and_zephyrus_variants_remain_exact(self):
         known = {item["id"] for item in self.laptops}

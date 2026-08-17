@@ -12,7 +12,7 @@ Live dashboard: <https://danielmza-web.github.io/laptop-deal-tracker/>
 
 ## Current product state
 
-- **Purchase completed:** XMG CORE 16 (M25), Ryzen AI 7 350, RTX 5060, 32 GB DDR5-5600, 2 TB WD_BLACK SN7100, US International ISO keyboard, and Windows 11 Home. Final price: EUR 1,865.69 including VAT after approximately 22.04% total savings. The authoritative record is `config/purchase.json`.
+- **Purchase completed:** XMG CORE 16 (M25), Ryzen AI 7 350, RTX 5060, 32 GB DDR5-5600, 2 TB WD_BLACK SN7100, US International ISO keyboard, and Windows 11 Home. Final price: EUR 1,865.69 including VAT after EUR 532.21 (approximately 22.2%) total savings. The authoritative record is `config/purchase.json`; the order number and coupon codes are intentionally excluded from the public repository.
 - Scheduled tracking is disabled. Do not restart it unless the buyer explicitly asks to resume laptop shopping.
 - The static mobile/desktop dashboard is hosted by GitHub Pages.
 - Python tracking runs in GitHub Actions; normal data updates are written to the `data` branch without rebuilding the frontend.
