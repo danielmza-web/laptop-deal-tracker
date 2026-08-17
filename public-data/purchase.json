@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "date": "2026-08-17",
+  "laptop": "XMG CORE 16 (M25)",
+  "laptop_id": "xmg-core-16-m25-ai7-350-rtx5060",
+  "order_configuration_code": "FISQBQN",
+  "price": 1865.69,
+  "currency": "EUR",
+  "configuration_summary": "Ryzen AI 7 350 · RTX 5060 8 GB · 32 GB DDR5-5600 · 2 TB NVMe · 2560×1600 IPS 300 Hz · US International keyboard · Windows 11 Home",
+  "configuration": {
+    "cpu": "AMD Ryzen AI 7 350",
+    "gpu": "NVIDIA GeForce RTX 5060 8 GB",
+    "ram": "32 GB (2 × 16 GB) Crucial DDR5-5600 SO-DIMM",
+    "storage": "2 TB WD_BLACK SN7100 PCIe 4.0 x4 NVMe SSD",
+    "display": "16-inch IPS, 2560×1600, 16:10, 300 Hz",
+    "keyboard": "US International (ISO)",
+    "wireless": "AMD Wi-Fi 6E RZ616 and Bluetooth 5.2",
+    "operating_system": "Microsoft Windows 11 Home",
+    "warranty": "24-month basic warranty with Pickup & Return",
+    "power_cable": "EU power cable with C5 plug for C6 socket"
+  },
+  "pricing": {
+    "original_configured_price": 2393.0,
+    "campaign_discount_percent": 20,
+    "price_after_campaign_discount": 1914.4,
+    "additional_product_discounts": 48.71,
+    "shipping": 4.9,
+    "shipping_discount": 4.9,
+    "final_price": 1865.69,
+    "vat_rate_percent": 19,
+    "vat_included": 297.88,
+    "total_savings": 527.31,
+    "effective_discount_percent": 22.04
+  },
+  "evidence": {
+    "type": "order_summary_screenshot",
+    "provided_by": "buyer",
+    "recorded_on": "2026-08-17",
+    "notes": "The original configured price is reconstructed from the displayed EUR 1,914.40 price after the buyer-confirmed 20% campaign discount. The remaining EUR 48.71 product discounts and free-shipping offset are displayed explicitly in the order summary."
+  }
+}
