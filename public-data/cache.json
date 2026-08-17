@@ -1,10 +1,10 @@
 {
   "bestware-xmg-core16-configurator": {
-    "last_success": "2026-08-16T23:34:33Z",
+    "last_success": "2026-08-17T05:51:02Z",
     "last_error": null
   },
   "bestware-xmg-core16-ai9-5060-prebuild": {
-    "etag": "W/\"page_cache:88174494045:ProductDetailsController:764dc90cdbd7146be9f454e08fa5c04c\"",
+    "etag": "W/\"page_cache:88174494045:ProductDetailsController:7bf594870cbca3e667e1730a1e01cb06\"",
     "last_modified": null,
     "offers": [
       {
@@ -33,19 +33,19 @@
         "confidence": "high",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:34Z",
+        "last_checked": "2026-08-17T05:51:04Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXL",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:34Z",
+    "last_success": "2026-08-17T05:51:04Z",
     "cooldown_until": null,
     "last_error": null
   },
   "bestware-xmg-core16-ai9-5070-prebuild": {
-    "etag": "W/\"page_cache:88174494045:ProductDetailsController:2980e2af4685c9e8cda9358b398b215a\"",
+    "etag": "W/\"page_cache:88174494045:ProductDetailsController:c1df0966f30d27c5b8e501872d1b14fd\"",
     "last_modified": null,
     "offers": [
       {
@@ -74,19 +74,19 @@
         "confidence": "high",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:36Z",
+        "last_checked": "2026-08-17T05:51:05Z",
         "missed_checks": 0,
         "raw_title": "CORE 16 (M25) - GameStar XXXL",
         "notes": "Starting/configurator price may differ from the preferred final configuration."
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:36Z",
+    "last_success": "2026-08-17T05:51:05Z",
     "cooldown_until": null,
     "last_error": null
   },
   "tuxedo-infinitybook-max16-configurator": {
-    "last_success": "2026-08-16T23:34:37Z",
+    "last_success": "2026-08-17T05:51:06Z",
     "last_error": null
   },
   "cyberport-aero-x16-1wh": {
@@ -127,14 +127,14 @@
         "confidence": "high",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:39Z",
+        "last_checked": "2026-08-17T05:51:09Z",
         "missed_checks": 0,
         "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
         "notes": null
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:39Z",
+    "last_success": "2026-08-17T05:51:09Z",
     "cooldown_until": null,
     "last_error": null
   },
@@ -168,14 +168,14 @@
         "confidence": "high",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:41Z",
+        "last_checked": "2026-08-17T05:51:11Z",
         "missed_checks": 0,
         "raw_title": "Legion Pro 5 Gen 10 (16\" AMD)",
         "notes": null
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:41Z",
+    "last_success": "2026-08-17T05:51:11Z",
     "cooldown_until": null,
     "last_error": null
   },
@@ -221,8 +221,8 @@
     ],
     "discovered_laptops": [],
     "last_success": "2026-08-16T23:34:50Z",
-    "cooldown_until": null,
-    "last_error": null
+    "cooldown_until": "2026-08-18T05:51:19Z",
+    "last_error": "HTTP 403; retries paused"
   },
   "asus-strix-g16-g614fr": {
     "cooldown_until": "2026-08-17T11:34:55Z",
@@ -233,8 +233,8 @@
     "configuration_match": "mismatched"
   },
   "hp-omen-16-ap0192ng": {
-    "etag": "\"4f133-6593235faa68d-gzip\"",
-    "last_modified": "Sun, 16 Aug 2026 23:14:09 GMT",
+    "etag": "W/\"4f133-65937c2981ff7-gzip\"",
+    "last_modified": "Mon, 17 Aug 2026 05:51:23 GMT",
     "offers": [
       {
         "id": "dba2193149fae719",
@@ -262,14 +262,14 @@
         "confidence": "low",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:52Z",
+        "last_checked": "2026-08-17T05:51:20Z",
         "missed_checks": 0,
         "raw_title": "OMEN Gaming Laptop 16-ap0192ng (C2AQ2EA)",
         "notes": null
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:52Z",
+    "last_success": "2026-08-17T05:51:20Z",
     "cooldown_until": null,
     "last_error": null
   },
@@ -307,14 +307,14 @@
         "confidence": "high",
         "first_seen": null,
         "last_seen": null,
-        "last_checked": "2026-08-16T23:34:54Z",
+        "last_checked": "2026-08-17T05:51:24Z",
         "missed_checks": 0,
         "raw_title": "MEDION® ERAZER Defender 17 P1 Core Gaming Laptop, Intel® Core™ i7 13620H, Ohne OS, 43,9 cm (17,3\") FHD Display mit 144 Hz, NVIDIA® GeForce RTX™ 5060, 1 TB SSD, 16 GB RAM",
         "notes": null
       }
     ],
     "discovered_laptops": [],
-    "last_success": "2026-08-16T23:34:54Z",
+    "last_success": "2026-08-17T05:51:24Z",
     "cooldown_until": null,
     "last_error": null
   },
