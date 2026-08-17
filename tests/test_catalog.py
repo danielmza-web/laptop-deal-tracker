@@ -21,11 +21,24 @@ class CatalogTests(unittest.TestCase):
         cls.ideal = json.loads((ROOT / "config" / "ideal_requirements.json").read_text(encoding="utf-8"))
         cls.families = json.loads((ROOT / "config" / "families.json").read_text(encoding="utf-8"))
         cls.previous_shortlist = json.loads((ROOT / "config" / "reconciliation_previous_shortlist_2026-08-15.json").read_text(encoding="utf-8"))
+        cls.purchase = json.loads((ROOT / "config" / "purchase.json").read_text(encoding="utf-8"))
 
     def test_master_catalog_has_unique_ids(self):
         ids = [laptop["id"] for laptop in self.laptops]
         self.assertEqual(len(ids), len(set(ids)))
         self.assertEqual(len(ids), 51)
+
+    def test_completed_purchase_matches_catalog_and_price_breakdown(self):
+        purchase = self.purchase
+        known = {item["id"] for item in self.laptops}
+        self.assertEqual(purchase["status"], "completed")
+        self.assertIn(purchase["laptop_id"], known)
+        self.assertEqual(purchase["configuration"]["storage"], "2 TB WD_BLACK SN7100 PCIe 4.0 x4 NVMe SSD")
+        self.assertEqual(purchase["configuration"]["keyboard"], "US International (ISO)")
+        pricing = purchase["pricing"]
+        self.assertAlmostEqual(pricing["original_configured_price"] * 0.8, pricing["price_after_campaign_discount"], places=2)
+        self.assertAlmostEqual(pricing["price_after_campaign_discount"] - pricing["additional_product_discounts"] + pricing["shipping"] - pricing["shipping_discount"], purchase["price"], places=2)
+        self.assertAlmostEqual(pricing["original_configured_price"] - purchase["price"], pricing["total_savings"], places=2)
 
     def test_explicit_families_are_safe_and_zephyrus_variants_remain_exact(self):
         known = {item["id"] for item in self.laptops}

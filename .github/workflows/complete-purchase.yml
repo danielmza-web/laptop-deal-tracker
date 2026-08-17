@@ -41,7 +41,11 @@ jobs:
           PURCHASE_DATE: ${{ inputs.purchase_date }}
         shell: bash
         run: |
-          python -c 'import json,os,pathlib; pathlib.Path("data-store/public-data/purchase.json").write_text(json.dumps({"laptop":os.environ["PURCHASED_LAPTOP"],"price":float(os.environ["PURCHASE_PRICE"]),"date":os.environ["PURCHASE_DATE"]},indent=2)+"\n",encoding="utf-8")'
+          if [ -f source/config/purchase.json ]; then
+            cp source/config/purchase.json data-store/public-data/purchase.json
+          else
+            python -c 'import json,os,pathlib; pathlib.Path("data-store/public-data/purchase.json").write_text(json.dumps({"laptop":os.environ["PURCHASED_LAPTOP"],"price":float(os.environ["PURCHASE_PRICE"]),"date":os.environ["PURCHASE_DATE"]},indent=2)+"\n",encoding="utf-8")'
+          fi
           cd source
           python -m tracker --offline --previous ../data-store/public-data --output ../archive-data
           cd ..
@@ -62,4 +66,3 @@ jobs:
             --header "Authorization: Bearer ${GH_TOKEN}" \
             --header "X-GitHub-Api-Version: 2022-11-28" \
             "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/tracker.yml/disable"
-

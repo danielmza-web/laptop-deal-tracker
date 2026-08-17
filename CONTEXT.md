@@ -4,7 +4,7 @@ Use this file to continue the project in a new Codex task, on another computer, 
 
 ## Purpose and lifespan
 
-Laptop Deal Tracker is a temporary English-only buying tool for finding one laptop in Germany over the next few months. It is not a permanent shopping platform. The target cost is EUR 0/month. After the purchase, record the result, take one final snapshot, disable scheduled checks, and keep the dashboard as a read-only archive.
+Laptop Deal Tracker was a temporary English-only buying tool for finding one laptop in Germany. Its buying purpose was completed on 2026-08-17. The final snapshot is preserved, scheduled checks are disabled, and the dashboard is now a read-only archive at EUR 0/month.
 
 Repository: <https://github.com/danielmza-web/laptop-deal-tracker>
 
@@ -12,6 +12,8 @@ Live dashboard: <https://danielmza-web.github.io/laptop-deal-tracker/>
 
 ## Current product state
 
+- **Purchase completed:** XMG CORE 16 (M25), Ryzen AI 7 350, RTX 5060, 32 GB DDR5-5600, 2 TB WD_BLACK SN7100, US International ISO keyboard, and Windows 11 Home. Final price: EUR 1,865.69 including VAT after approximately 22.04% total savings. The authoritative record is `config/purchase.json`.
+- Scheduled tracking is disabled. Do not restart it unless the buyer explicitly asks to resume laptop shopping.
 - The static mobile/desktop dashboard is hosted by GitHub Pages.
 - Python tracking runs in GitHub Actions; normal data updates are written to the `data` branch without rebuilding the frontend.
 - The master catalog currently has 51 exact or research-stage records: the reconciled 47-row research set plus current fixed variants and later exact Lenovo and ASUS additions.

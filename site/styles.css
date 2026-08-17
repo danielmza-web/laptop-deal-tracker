@@ -70,6 +70,8 @@ a { color: inherit; }
 
 main { max-width: 1320px; margin: 0 auto; padding: clamp(18px, 4vw, 52px); }
 .purchase-banner { margin-bottom: 18px; padding: 16px 18px; border: 1px solid #8cb59f; border-radius: 14px; background: #e5f8ed; }
+.purchase-banner strong, .purchase-banner span { display: block; }
+.purchase-banner span { margin-top: 5px; }
 .overview {
   position: relative;
   overflow: hidden;

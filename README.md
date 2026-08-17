@@ -2,7 +2,9 @@
 
 Laptop Deal Tracker is a temporary, personal buying dashboard for finding a laptop in Germany. It keeps known candidates, current offers, price changes, source health, and a rule-based BUY / WAIT / SKIP recommendation in one mobile-friendly page.
 
-The project is deliberately small. It is meant to run for a few months, help make one purchase, and then archive itself.
+The project completed its purpose on 2026-08-17 and is now a read-only purchase archive. The final choice was an XMG CORE 16 (M25) with Ryzen AI 7 350, RTX 5060, 32 GB RAM, 2 TB SSD, US International keyboard, and Windows 11 Home for EUR 1,865.69 including VAT.
+
+The complete configuration and discount record is stored in `config/purchase.json`. Scheduled tracking is disabled; the final dashboard and price history remain available for reference.
 
 ## What it does
 
@@ -117,16 +119,16 @@ The Prices area includes dated marketplace research from `config/market_leads.js
 
 A high score alone cannot produce BUY NOW. The exact offer must be matched with high confidence, have an effective price, meet the Laptop and Value thresholds, and permit required upgrades. Changed, unidentified, or unresolved configurations remain UNRATED rather than inheriting another variant's price.
 
-## When the laptop is purchased
+## Purchase completion
 
-Open **Actions → Complete purchase and stop tracking → Run workflow** and enter the laptop, final EUR price, and purchase date. The workflow:
+The purchase-completion workflow was run on 2026-08-17. It:
 
 1. records the final purchase;
 2. creates one final offline snapshot using the last valid prices;
 3. publishes the archive banner;
 4. disables the scheduled tracker workflow.
 
-The static dashboard and its history remain readable. You may then download the repository, remove the custom domain, or archive the GitHub repository.
+The static dashboard and its history remain readable. The repository may be downloaded or archived, while the default GitHub Pages URL can remain online at no monthly cost.
 
 ## Limits by design
 

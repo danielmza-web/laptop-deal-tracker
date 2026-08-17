@@ -198,7 +198,13 @@ function renderAll() {
   const banner = $("#purchase-banner");
   if (purchase) {
     banner.classList.remove("hidden");
-    banner.innerHTML = `<strong>Purchase completed:</strong> ${escapeHtml(purchase.laptop)} · ${money(purchase.price)} · ${escapeHtml(purchase.date)}. Tracking is archived.`;
+    const configuration = purchase.configuration_summary
+      ? `<span>${escapeHtml(purchase.configuration_summary)}</span>`
+      : "";
+    const savings = purchase.pricing?.total_savings != null
+      ? `<span>Saved ${money(purchase.pricing.total_savings)} (${escapeHtml(String(purchase.pricing.effective_discount_percent))}%). Tracking is archived.</span>`
+      : `<span>Tracking is archived.</span>`;
+    banner.innerHTML = `<strong>Purchase completed: ${escapeHtml(purchase.laptop)} · ${money(purchase.price)} · ${escapeHtml(purchase.date)}</strong>${configuration}${savings}`;
   } else banner.classList.add("hidden");
 }
 
